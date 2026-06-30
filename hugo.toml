@@ -10,23 +10,26 @@ theme = "PaperMod"
   ShowToc = true
   TocOpen = false
 
-[menu.main]
 [[menu.main]]
 name = "NAS折腾"
 url = "/nas/"
 weight = 1
+
 [[menu.main]]
 name = "AI本地部署"
 url = "/ai/"
 weight = 2
+
 [[menu.main]]
 name = "脚本&工具教程"
 url = "/script/"
 weight = 3
+
 [[menu.main]]
 name = "芯片硬件科普"
 url = "/hardware/"
 weight = 4
+
 [[menu.main]]
 name = "踩坑记录"
 url = "/log/"
@@ -36,4 +39,3 @@ weight = 5
 enable = false
 envId = ""
 lang = "zh-CN"
-
