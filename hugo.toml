@@ -1,4 +1,4 @@
-baseURL = "https://shura-techblog.shashura1.top/"
+baseURL = "http://192.168.71.27:1313"
 languageCode = "zh-cn"
 title = "Shura 极客技术笔记"
 theme = "PaperMod"
@@ -10,32 +10,20 @@ theme = "PaperMod"
   ShowToc = true
   TocOpen = false
 
+  [params.profileMode]
+    enabled = false
+
+[taxonomies]
+  category = "categories"
+
 [[menu.main]]
-name = "NAS折腾"
-url = "/nas/"
+name = "首页"
+url = "/"
 weight = 1
 
 [[menu.main]]
-name = "AI本地部署"
-url = "/ai/"
+name = "归档"
+url = "/archives/"
 weight = 2
 
-[[menu.main]]
-name = "脚本&工具教程"
-url = "/script/"
-weight = 3
 
-[[menu.main]]
-name = "芯片硬件科普"
-url = "/hardware/"
-weight = 4
-
-[[menu.main]]
-name = "踩坑记录"
-url = "/log/"
-weight = 5
-
-[params.twikoo]
-enable = false
-envId = ""
-lang = "zh-CN"
