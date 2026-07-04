@@ -2,7 +2,7 @@
 ---
 title: "从零搭建 Hugo 静态博客｜OpenList+网盘图床 + Cloudflare Pages 免费部署 全套命令&踩坑避坑"
 date: 2026-07-04T00:00:00+08:00
-draft: true
+draft: false
 categories: ["NAS存储", "IT知识"]
 tags: ["Hugo","静态博客","Cloudflare","OpenList","PicGo","ZeroTrust隧道"]
 toc: true
