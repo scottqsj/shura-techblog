@@ -1,4 +1,4 @@
-baseURL = "http://192.168.71.27:1313"
+baseURL = "https://techblog.shashura1.top/"
 languageCode = "zh-cn"
 title = "Shura 极客技术笔记"
 theme = "PaperMod"

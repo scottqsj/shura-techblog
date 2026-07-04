@@ -8,6 +8,8 @@
     --font-mono: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace;
     --gap: 24px;
     --sidebar-width: 200px;
+    /* Override PaperMod main-width to span 75%+ of screen */
+    --main-width: min(900px, 65vw);
 }
 
 body {
@@ -17,31 +19,21 @@ body {
     color: var(--primary);
 }
 
+/* === Widen entire site: home page layout === */
 .home-layout {
-    max-width: calc(var(--main-width) + var(--sidebar-width) + 80px) !important;
+    max-width: min(85vw, 1400px) !important;
 }
 
-/* === Headings === */
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-heading);
-    font-weight: 700;
-    line-height: 1.4;
+/* === Widen main container for all pages (articles, list, etc.) === */
+.main {
+    max-width: min(80vw, 1200px) !important;
 }
 
-h1 { font-size: 2rem; }
-h2 { font-size: 1.6rem; }
-h3 { font-size: 1.3rem; }
-
-/* === Code === */
-code, pre, .chroma {
-    font-family: var(--font-mono);
-    font-size: 0.92em;
-}
-
-/* === Post content font === */
+/* === Widen post content specifically === */
 .post-content {
     font-size: 17px;
     line-height: 1.85;
+    max-width: 100% !important;
 }
 
 .entry-content {
@@ -156,10 +148,21 @@ code, pre, .chroma {
     }
 }
 
-/* === Post page: full width without sidebar === */
-.post .post-content {
-    font-size: 17px;
-    line-height: 1.85;
+/* === Headings === */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+h1 { font-size: 2rem; }
+h2 { font-size: 1.6rem; }
+h3 { font-size: 1.3rem; }
+
+/* === Code === */
+code, pre, .chroma {
+    font-family: var(--font-mono);
+    font-size: 0.92em;
 }
 
 /* === Menu font tweak === */
