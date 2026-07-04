@@ -9,7 +9,8 @@
     --gap: 24px;
     --sidebar-width: 200px;
     /* Override PaperMod main-width to span 75%+ of screen */
-    --main-width: 1920px;
+    --main-width: 1680px;
+    --nav-width: 1680px;
 }
 
 body {
@@ -21,12 +22,12 @@ body {
 
 /* === Widen entire site: home page layout === */
 .home-layout {
-    max-width: 1920px !important;
+    max-width: 1680px !important;
 }
 
 /* === Widen main container for all pages (articles, list, etc.) === */
 .main {
-    max-width: 1920px !important;
+    max-width: 1680px !important;
 }
 
 /* === Widen post content specifically === */
