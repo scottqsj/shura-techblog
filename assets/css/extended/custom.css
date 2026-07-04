@@ -9,7 +9,7 @@
     --gap: 24px;
     --sidebar-width: 200px;
     /* Override PaperMod main-width to span 75%+ of screen */
-    --main-width: min(900px, 65vw);
+    --main-width: 1920px;
 }
 
 body {
@@ -21,12 +21,12 @@ body {
 
 /* === Widen entire site: home page layout === */
 .home-layout {
-    max-width: min(85vw, 1400px) !important;
+    max-width: 1920px !important;
 }
 
 /* === Widen main container for all pages (articles, list, etc.) === */
 .main {
-    max-width: min(80vw, 1200px) !important;
+    max-width: 1920px !important;
 }
 
 /* === Widen post content specifically === */
@@ -45,7 +45,7 @@ body {
 .entry-header h2,
 .first-entry .entry-header h2,
 .first-entry .entry-header h1 {
-    font-size: 1.1rem !important;
+    font-size: 1.25rem !important;
 }
 
 .first-entry .entry-content {
