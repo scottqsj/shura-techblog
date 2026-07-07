@@ -49,6 +49,14 @@ body {
     font-size: 1.25rem !important;
 }
 
+/* Fix: first-entry background matches regular post-entry cards */
+.first-entry {
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: var(--gap);
+}
+
 .first-entry .entry-content {
     font-size: 16px;
 }

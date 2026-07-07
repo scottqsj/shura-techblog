@@ -16,6 +16,9 @@ theme = "PaperMod"
 [taxonomies]
   category = "categories"
 
+[markup.goldmark.renderer]
+  unsafe = true
+
 [[menu.main]]
 name = "首页"
 url = "/"

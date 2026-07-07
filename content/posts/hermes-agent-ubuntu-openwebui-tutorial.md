@@ -15,16 +15,27 @@ Hermes Agent 是 Nous Research 开源的 AI Agent 框架，支持记忆、技能
 
 ## 一、整体架构说明
 
-```
-┌─────────────────────────┐        ┌─────────────────────────┐
-│   Ubuntu 虚拟机 (内网)    │        │   极空间 NAS (内网)      │
-│                         │        │                         │
-│  Hermes Agent (CLI)     │        │  Open WebUI (Docker)    │
-│  Hermes Desktop (GUI)   │  API   │  浏览器访问前端           │
-│  Hermes API Server      │◄──────►│  http://NAS_IP:3000     │
-│  (0.0.0.0:8642)        │  调用   │                         │
-└─────────────────────────┘        └─────────────────────────┘
-```
+<table>
+<tr>
+  <th style="text-align:center;padding:8px 16px;background:var(--code-bg);border-radius:6px">Ubuntu 虚拟机 (内网)</th>
+  <th style="text-align:center;padding:8px">← API 调用 →</th>
+  <th style="text-align:center;padding:8px 16px;background:var(--code-bg);border-radius:6px">极空间 NAS (内网)</th>
+</tr>
+<tr>
+  <td style="vertical-align:top;padding:8px 16px">
+    Hermes Agent (CLI)<br>
+    Hermes Desktop (GUI)<br>
+    Hermes API Server<br>
+    监听 0.0.0.0:8642
+  </td>
+  <td></td>
+  <td style="vertical-align:top;padding:8px 16px">
+    Open WebUI (Docker)<br>
+    浏览器访问前端<br>
+    http://NAS_IP:3000
+  </td>
+</tr>
+</table>
 
 核心思路：Ubuntu 虚拟机跑 Hermes Agent 并启动 API Server，极空间 Docker 跑 Open WebUI，后者通过内网调用 Hermes API Server 实现完整的 Agent 交互。
 
