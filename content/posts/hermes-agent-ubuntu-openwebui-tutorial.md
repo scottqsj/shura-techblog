@@ -15,21 +15,21 @@ Hermes Agent 是 Nous Research 开源的 AI Agent 框架，支持记忆、技能
 
 ## 一、整体架构说明
 
-<table>
+<table style="width:100%;border-collapse:separate;border-spacing:12px">
 <tr>
-  <th style="text-align:center;padding:8px 16px;background:var(--code-bg);border-radius:6px">Ubuntu 虚拟机 (内网)</th>
-  <th style="text-align:center;padding:8px">← API 调用 →</th>
-  <th style="text-align:center;padding:8px 16px;background:var(--code-bg);border-radius:6px">极空间 NAS (内网)</th>
+  <th style="text-align:center;padding:12px 24px;background:var(--code-bg);border-radius:6px;font-size:1.05rem;width:42%">Ubuntu 虚拟机 (内网)</th>
+  <th style="text-align:center;padding:12px 8px;font-size:1.05rem;width:16%">← API 调用 →</th>
+  <th style="text-align:center;padding:12px 24px;background:var(--code-bg);border-radius:6px;font-size:1.05rem;width:42%">极空间 NAS (内网)</th>
 </tr>
 <tr>
-  <td style="vertical-align:top;padding:8px 16px">
+  <td style="vertical-align:top;padding:14px 24px;font-size:1rem;line-height:2.2">
     Hermes Agent (CLI)<br>
     Hermes Desktop (GUI)<br>
     Hermes API Server<br>
     监听 0.0.0.0:8642
   </td>
   <td></td>
-  <td style="vertical-align:top;padding:8px 16px">
+  <td style="vertical-align:top;padding:14px 24px;font-size:1rem;line-height:2.2">
     Open WebUI (Docker)<br>
     浏览器访问前端<br>
     http://NAS_IP:3000

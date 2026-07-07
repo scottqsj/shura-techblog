@@ -49,12 +49,15 @@ body {
     font-size: 1.25rem !important;
 }
 
-/* Fix: first-entry background matches regular post-entry cards */
+/* Fix: first-entry background matches regular post-entry cards, remove forced height */
 .first-entry {
     background: var(--entry);
     border: 1px solid var(--border);
     border-radius: var(--radius);
     padding: var(--gap);
+    min-height: unset;
+    margin: 0 0 var(--gap) 0;
+    justify-content: flex-start;
 }
 
 .first-entry .entry-content {
