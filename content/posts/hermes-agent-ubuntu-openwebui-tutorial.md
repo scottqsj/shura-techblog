@@ -2,7 +2,7 @@
 title: "Hermes Agent 完全部署指南｜Ubuntu虚拟机 + 极空间NAS Open WebUI 联动教程"
 date: 2026-07-07T00:00:00+08:00
 draft: false
-categories: ["NAS存储", "IT知识"]
+categories: ["NAS存储", "AI知识技能"]
 tags: ["Hermes","AI Agent","Ubuntu","极空间","OpenWebUI","Docker"]
 toc: true
 ---
