@@ -45,6 +45,14 @@
   {{- partial "extend_post_content.html" . }}
 
   <footer class="post-footer">
+    {{- if .Params.categories }}
+    <div class="post-categories">
+      <span>分类:&nbsp;</span>
+      {{- range .Params.categories }}
+      <a href="/categories/{{ . | urlize }}/">{{ . }}</a>&nbsp;
+      {{- end }}
+    </div>
+    {{- end }}
     {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}
     <ul class="post-tags">
       {{- range ($.GetTerms $tags) }}
