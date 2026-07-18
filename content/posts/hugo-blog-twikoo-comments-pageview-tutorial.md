@@ -276,9 +276,7 @@ body.dark #tcomment .tk-time {
 
 管理面板里可以配置评论审核、垃圾过滤、邮件通知等。
 
-上线效果（读者只需填昵称，秒发评论）：
-
-![评论区效果](https://img.shashura1.top/d/115pan/blog-img/hugo-comment-pv-commentbox.png)
+上线效果不用截图——本文底部就是活的评论区，滚到最下面即可体验：读者只需填个昵称，秒发评论，无需注册任何账号。
 
 ## 六、30 行代码自建浏览量统计
 
@@ -425,9 +423,7 @@ curl -s "https://pv.你的域名/?path=/posts/test/"          # {"count":2}
 {{ end }}
 ```
 
-构建推送后，每篇文章标题下方就有了：
-
-![浏览量效果](https://img.shashura1.top/d/115pan/blog-img/hugo-comment-pv-viewcount.png)
+构建推送后，每篇文章标题下方的日期旁边就会出现「阅读 N 次」——效果同样不用截图，抬头看本文标题下方就是。
 
 ## 八、踩坑总结
 
