@@ -196,3 +196,29 @@ code, pre, .chroma {
 [data-theme="dark"] .sidebar-categories a:hover {
     background: var(--entry);
 }
+
+/* === Twikoo Comments === */
+.twikoo-container {
+    margin-top: 40px;
+    padding-top: 30px;
+    border-top: 1px solid var(--border);
+}
+
+/* Twikoo dark mode adaptation (PaperMod uses body.dark) */
+body.dark #tcomment .el-input__inner,
+body.dark #tcomment .el-textarea__inner {
+    background: var(--entry);
+    color: var(--primary);
+    border-color: var(--border);
+}
+
+body.dark #tcomment .tk-content,
+body.dark #tcomment .tk-nick,
+body.dark #tcomment .tk-comments-title {
+    color: var(--primary);
+}
+
+body.dark #tcomment .tk-action-icon,
+body.dark #tcomment .tk-time {
+    color: var(--secondary);
+}

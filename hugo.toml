@@ -9,9 +9,14 @@ theme = "PaperMod"
   mathjax = true
   ShowToc = true
   TocOpen = false
+  comments = true
 
   [params.profileMode]
     enabled = false
+
+  [params.twikoo]
+    envId = "https://twikoo.shashura1.top"
+    version = "1.6.44"
 
 [taxonomies]
   category = "categories"
