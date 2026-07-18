@@ -1,0 +1,22 @@
+{{- /* 文章浏览量统计：调用 pv.shashura1.top Worker，数据存自己的 D1 */ -}}
+{{- if and (eq .Kind "page") (eq .Type "posts") }}
+<script>
+(function () {
+  var meta = document.querySelector('.post-single .post-meta');
+  if (!meta) return;
+  var path = location.pathname;
+  var key = 'pv:' + path;
+  var hit = sessionStorage.getItem(key) ? '' : '&hit=1';
+  fetch('https://pv.shashura1.top/?path=' + encodeURIComponent(path) + hit)
+    .then(function (r) { return r.json(); })
+    .then(function (d) {
+      if (typeof d.count !== 'number') return;
+      sessionStorage.setItem(key, '1');
+      var span = document.createElement('span');
+      span.textContent = '\u00A0\u00B7\u00A0阅读 ' + d.count + ' 次';
+      meta.appendChild(span);
+    })
+    .catch(function () {});
+})();
+</script>
+{{- end }}
