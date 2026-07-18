@@ -222,3 +222,40 @@ body.dark #tcomment .tk-action-icon,
 body.dark #tcomment .tk-time {
     color: var(--secondary);
 }
+
+/* ===== 歌曲试听按钮 ===== */
+.song-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    padding: 10px 22px;
+    margin: 6px 10px 6px 0;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #fff !important;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none !important;
+    box-shadow: 0 3px 10px rgba(102, 126, 234, 0.35);
+    transition: transform .15s ease, box-shadow .15s ease;
+}
+.song-link:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(102, 126, 234, 0.55);
+}
+.song-link::before {
+    content: "▶";
+    font-size: 12px;
+    background: rgba(255, 255, 255, 0.28);
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+.dark .song-link {
+    background: linear-gradient(135deg, #5a6fd6 0%, #6a4292 100%);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+}
