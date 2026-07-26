@@ -5,10 +5,9 @@ draft = false
 categories = ["AI知识技能"]
 tags = ["Obsidian","知识库","Hermes","AI Agent","效率工具"]
 description = "从零搭建本地知识库，用 AI Agent 自动维护和检索，让知识真正为你工作。"
-cover.image = "https://img.shashura1.top/d/115pan/blog-img/obsidian-banner.png"
-cover.caption = "Obsidian + AI = 第二大脑"
-hiddenInList = false
 +++
+
+![Obsidian + AI = 第二大脑](https://img.shashura1.top/d/115pan/blog-img/obsidian-banner.png)
 
 你有没有过这种体验：明明记得之前解决过某个问题，却死活找不到当时的笔记；或者每个项目都积累了成吨资料，但散落在不同文件夹里，想用的时候得翻半天。
 
