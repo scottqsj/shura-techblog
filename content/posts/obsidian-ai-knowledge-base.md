@@ -59,7 +59,7 @@ Obsidian 是一款基于本地 Markdown 文件的知识管理工具。不像 Not
 
 官网 https://obsidian.md/download 直接下载安装包。Linux 用户可以用 AppImage 或 Flatpak：
 
-```
+```bash
 # Flatpak 安装
 flatpak install flathub md.obsidian.Obsidian
 
@@ -118,7 +118,7 @@ App Store / Google Play 搜索 "Obsidian" 下载。
 
 先看看我实际在用的知识库，它只有 10 篇笔记，但覆盖了所有核心信息：
 
-```
+```text
 knowledge-base/
 ├── 01-项目/
 │   ├── AI助手Hermes配置.md
@@ -149,7 +149,7 @@ Hermes 是我在用的 AI Agent，它的一个核心能力就是**直接读写�
 
 举个例子，让 Hermes 推送一篇博客文章，它的执行流程是：
 
-```
+```text
 用户: 推送博客
   ↓
 Hermes 读 memory → 知道博客在 ~/shura-techblog/
