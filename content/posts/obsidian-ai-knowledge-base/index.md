@@ -1,7 +1,7 @@
 +++
 title = "用 Obsidian + AI Agent 打造你的第二大脑"
 date = 2026-07-26T21:30:00+08:00
-draft = true
+draft = false
 categories = ["AI知识技能"]
 tags = ["Obsidian","知识库","Hermes","AI Agent","效率工具"]
 description = "从零搭建本地知识库，用 AI Agent 自动维护和检索，让知识真正为你工作。"
