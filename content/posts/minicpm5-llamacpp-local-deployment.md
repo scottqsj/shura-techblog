@@ -1,7 +1,7 @@
 +++
 title = "MiniCPM5-1B 本地部署实战：688MB 模型跑在 llama.cpp 上能干什么？"
 date = "2026-07-26T00:00:00"
-draft: false
+draft = false
 toc = true
 description = "OpenBMB 开源的 MiniCPM5-1B 模型，GGUF 量化后仅 688MB，搭配 llama.cpp 在普通电脑上就能跑。本文介绍模型的混合推理、工具调用、128K 长上下文等核心能力，给出从零部署到实际使用场景的完整指南，并对比线上 API 模型的优劣。"
 summary = "688MB 的 MiniCPM5-1B 是 1B 参数级别的 SOTA 模型，支持思考/非思考双模式、工具调用、128K 长上下文，用 llama.cpp 一行命令就能在本地跑起来。这篇文章讲清楚它能干什么、怎么部署、和线上 API 比差在哪。"
