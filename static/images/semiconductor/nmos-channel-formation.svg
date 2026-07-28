@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 400" font-family="sans-serif">
+  <defs>
+    <pattern id="pSub2" patternUnits="userSpaceOnUse" width="20" height="20">
+      <rect width="20" height="20" fill="#fee2e2"/>
+      <circle cx="10" cy="10" r="1.8" fill="#fca5a5" opacity="0.45"/>
+    </pattern>
+    <linearGradient id="nPlus2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3b82f6"/><stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <linearGradient id="invLayer" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#22c55e"/><stop offset="100%" stop-color="#15803d"/>
+    </linearGradient>
+    <linearGradient id="oxideG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e0f2fe"/><stop offset="100%" stop-color="#bae6fd"/>
+    </linearGradient>
+    <linearGradient id="gatePoly" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fcd34d"/><stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="860" height="400" fill="#f8fafc" rx="8"/>
+  <text x="430" y="26" text-anchor="middle" font-size="17" font-weight="bold" fill="#1e293b">NMOS 沟道形成原理：栅极电压控制导通与关断</text>
+
+  <!-- ===== LEFT: Vgs=0 (OFF) ===== -->
+  <rect x="15" y="40" width="405" height="345" fill="white" stroke="#e2e8f0" stroke-width="1.5" rx="6"/>
+  <text x="217" y="62" text-anchor="middle" font-size="13" font-weight="bold" fill="#dc2626">Vgs = 0 → 沟道关闭 (OFF)</text>
+
+  <!-- P substrate -->
+  <rect x="35" y="195" width="365" height="145" fill="url(#pSub2)" stroke="#fca5a5" stroke-width="0.8"/>
+  <text x="50" y="325" font-size="9" fill="#991b1b" font-weight="bold">P 型衬底</text>
+
+  <!-- N+ Source (embedded) -->
+  <rect x="80" y="195" width="75" height="60" fill="url(#nPlus2)" rx="2"/>
+  <text x="117" y="225" text-anchor="middle" font-size="10" fill="white" font-weight="bold">N⁺</text>
+  <text x="117" y="241" text-anchor="middle" font-size="7" fill="#bfdbfe">源极</text>
+
+  <!-- N+ Drain (embedded) -->
+  <rect x="280" y="195" width="75" height="60" fill="url(#nPlus2)" rx="2"/>
+  <text x="317" y="225" text-anchor="middle" font-size="10" fill="white" font-weight="bold">N⁺</text>
+  <text x="317" y="241" text-anchor="middle" font-size="7" fill="#bfdbfe">漏极</text>
+
+  <!-- PN junction marks -->
+  <line x1="155" y1="195" x2="155" y2="255" stroke="#ef4444" stroke-width="0.8" stroke-dasharray="3,2"/>
+  <text x="155" y="269" text-anchor="middle" font-size="7" fill="#ef4444">PN结</text>
+  <line x1="280" y1="195" x2="280" y2="255" stroke="#ef4444" stroke-width="0.8" stroke-dasharray="3,2"/>
+  <text x="280" y="269" text-anchor="middle" font-size="7" fill="#ef4444">PN结</text>
+
+  <!-- Gate oxide (on surface) -->
+  <rect x="155" y="180" width="125" height="15" fill="url(#oxideG)" stroke="#7dd3fc" stroke-width="0.5"/>
+  <text x="217" y="191" text-anchor="middle" font-size="7" fill="#0284c7">SiO₂</text>
+
+  <!-- Gate (on gate oxide) -->
+  <rect x="160" y="148" width="115" height="32" fill="url(#gatePoly)" stroke="#d97706" stroke-width="0.8" rx="3"/>
+  <text x="217" y="168" text-anchor="middle" font-size="9" fill="#92400e" font-weight="bold">多晶硅栅极</text>
+
+  <!-- S terminal -->
+  <line x1="117" y1="195" x2="117" y2="108" stroke="#3b82f6" stroke-width="1.2"/>
+  <circle cx="117" cy="105" r="4" fill="#3b82f6"/>
+  <text x="117" y="97" text-anchor="middle" font-size="10" fill="#3b82f6" font-weight="bold">S = 0V</text>
+
+  <!-- D terminal -->
+  <line x1="317" y1="195" x2="317" y2="108" stroke="#3b82f6" stroke-width="1.2"/>
+  <circle cx="317" cy="105" r="4" fill="#3b82f6"/>
+  <text x="317" y="97" text-anchor="middle" font-size="10" fill="#3b82f6" font-weight="bold">D = +V</text>
+
+  <!-- G terminal -->
+  <line x1="217" y1="148" x2="217" y2="108" stroke="#d97706" stroke-width="1.2"/>
+  <circle cx="217" cy="105" r="4" fill="#d97706"/>
+  <text x="217" y="97" text-anchor="middle" font-size="10" fill="#92400e" font-weight="bold">G = 0V</text>
+
+  <!-- No current mark -->
+  <text x="217" y="225" text-anchor="middle" font-size="22" fill="#dc2626">✕</text>
+  <text x="217" y="248" text-anchor="middle" font-size="9" fill="#dc2626" font-weight="bold">Ids = 0 (无电流)</text>
+
+  <!-- Explanation -->
+  <text x="217" y="295" text-anchor="middle" font-size="8" fill="#64748b">源极 N⁺ 和漏极 N⁺ 之间是 P 型衬底</text>
+  <text x="217" y="309" text-anchor="middle" font-size="8" fill="#64748b">两个背靠背 PN 结阻断电流通路</text>
+  <text x="217" y="323" text-anchor="middle" font-size="8" fill="#64748b">NMOS 为常关型开关</text>
+
+  <!-- ===== RIGHT: Vgs > Vth (ON) ===== -->
+  <rect x="440" y="40" width="405" height="345" fill="white" stroke="#e2e8f0" stroke-width="1.5" rx="6"/>
+  <text x="642" y="62" text-anchor="middle" font-size="13" font-weight="bold" fill="#16a34a">Vgs &gt; Vth → 沟道导通 (ON)</text>
+
+  <!-- P substrate -->
+  <rect x="460" y="195" width="365" height="145" fill="url(#pSub2)" stroke="#fca5a5" stroke-width="0.8"/>
+  <text x="475" y="325" font-size="9" fill="#991b1b" font-weight="bold">P 型衬底</text>
+
+  <!-- N+ Source (embedded) -->
+  <rect x="505" y="195" width="75" height="60" fill="url(#nPlus2)" rx="2"/>
+  <text x="542" y="225" text-anchor="middle" font-size="10" fill="white" font-weight="bold">N⁺</text>
+  <text x="542" y="241" text-anchor="middle" font-size="7" fill="#bfdbfe">源极</text>
+
+  <!-- N+ Drain (embedded) -->
+  <rect x="705" y="195" width="75" height="60" fill="url(#nPlus2)" rx="2"/>
+  <text x="742" y="225" text-anchor="middle" font-size="10" fill="white" font-weight="bold">N⁺</text>
+  <text x="742" y="241" text-anchor="middle" font-size="7" fill="#bfdbfe">漏极</text>
+
+  <!-- INVERSION LAYER (channel at surface) -->
+  <rect x="580" y="195" width="125" height="14" fill="url(#invLayer)" rx="3" opacity="0.9"/>
+  <text x="642" y="205" text-anchor="middle" font-size="8" fill="white" font-weight="bold">反型层 — N 型导电沟道</text>
+
+  <!-- Gate oxide (on surface) -->
+  <rect x="580" y="180" width="125" height="15" fill="url(#oxideG)" stroke="#7dd3fc" stroke-width="0.5"/>
+
+  <!-- Gate (on gate oxide) -->
+  <rect x="585" y="148" width="115" height="32" fill="url(#gatePoly)" stroke="#d97706" stroke-width="0.8" rx="3"/>
+  <text x="642" y="168" text-anchor="middle" font-size="9" fill="#92400e" font-weight="bold">多晶硅栅极</text>
+
+  <!-- S terminal -->
+  <line x1="542" y1="195" x2="542" y2="108" stroke="#3b82f6" stroke-width="1.2"/>
+  <circle cx="542" cy="105" r="4" fill="#3b82f6"/>
+  <text x="542" y="97" text-anchor="middle" font-size="10" fill="#3b82f6" font-weight="bold">S = 0V</text>
+
+  <!-- D terminal -->
+  <line x1="742" y1="195" x2="742" y2="108" stroke="#3b82f6" stroke-width="1.2"/>
+  <circle cx="742" cy="105" r="4" fill="#3b82f6"/>
+  <text x="742" y="97" text-anchor="middle" font-size="10" fill="#3b82f6" font-weight="bold">D = +V</text>
+
+  <!-- G terminal -->
+  <line x1="642" y1="148" x2="642" y2="108" stroke="#d97706" stroke-width="1.2"/>
+  <circle cx="642" cy="105" r="4" fill="#d97706"/>
+  <text x="642" y="97" text-anchor="middle" font-size="10" fill="#92400e" font-weight="bold">G = +V</text>
+
+  <!-- Current flow -->
+  <path d="M 542 270 L 570 270 L 570 275 L 715 275 L 715 270 L 740 270" fill="none" stroke="#22c55e" stroke-width="2"/>
+  <polygon points="740,265 748,270 740,275" fill="#22c55e"/>
+  <text x="642" y="288" text-anchor="middle" font-size="9" fill="#16a34a" font-weight="bold">电子流 Ids &gt; 0</text>
+
+  <!-- Depletion region -->
+  <rect x="580" y="209" width="125" height="20" fill="none" stroke="#ef4444" stroke-width="0.8" stroke-dasharray="3,2" rx="2"/>
+  <text x="642" y="223" text-anchor="middle" font-size="7" fill="#ef4444">耗尽层</text>
+
+  <!-- Explanation -->
+  <text x="642" y="310" text-anchor="middle" font-size="8" fill="#64748b">栅极正电压排斥 P 型衬底空穴</text>
+  <text x="642" y="324" text-anchor="middle" font-size="8" fill="#64748b">吸引电子到硅表面 → P 型反转为 N 型</text>
+  <text x="642" y="338" text-anchor="middle" font-size="8" fill="#64748b">源漏间形成 N 型导电沟道 → 电流导通</text>
+
+  <!-- Divider arrows -->
+  <polygon points="425,210 438,200 425,190 438,210" fill="#94a3b8"/>
+  <polygon points="438,210 425,200 438,190 425,210" fill="#94a3b8"/>
+  <text x="431" y="218" text-anchor="middle" font-size="7" fill="#64748b">加电压</text>
+</svg>

@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 400" font-family="sans-serif">
+  <rect width="850" height="400" fill="#f8fafc" rx="8"/>
+  <text x="425" y="25" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e293b">第一步：从沙子到单晶硅锭（直拉法 Czochralski）</text>
+
+  <!-- Left: SiO2 → Raw Si -->
+  <rect x="25" y="45" width="170" height="120" rx="6" fill="#fff7ed" stroke="#fdba74" stroke-width="1.5"/>
+  <text x="110" y="70" text-anchor="middle" font-size="11" font-weight="bold" fill="#c2410c">① 原材料提纯</text>
+  <text x="110" y="90" text-anchor="middle" font-size="9" fill="#9a3412">SiO₂ (石英砂)</text>
+  <text x="110" y="108" text-anchor="middle" font-size="9" fill="#9a3412">↓ 碳热还原</text>
+  <text x="110" y="126" text-anchor="middle" font-size="9" fill="#9a3412">冶金级硅 (98%)</text>
+  <text x="110" y="144" text-anchor="middle" font-size="9" fill="#9a3412">↓ 西门子法提纯</text>
+  <text x="110" y="160" text-anchor="middle" font-size="9" fill="#9a3412">电子级多晶硅 (99.9999999%)</text>
+
+  <!-- Arrow -->
+  <polygon points="200,105 220,95 200,85 220,105" fill="#94a3b8"/>
+
+  <!-- Center: Czochralski -->
+  <rect x="235" y="45" width="240" height="320" rx="6" fill="#eff6ff" stroke="#93c5fd" stroke-width="1.5"/>
+  <text x="355" y="68" text-anchor="middle" font-size="11" font-weight="bold" fill="#1e40af">② 直拉法晶体生长</text>
+
+  <!-- Furnace diagram -->
+  <rect x="280" y="80" width="150" height="18" fill="#cbd5e1" rx="3"/>
+  <text x="355" y="93" text-anchor="middle" font-size="7" fill="#475569">加热器</text>
+
+  <!-- Crucible -->
+  <ellipse cx="355" cy="175" rx="50" ry="35" fill="#d1d5db" stroke="#9ca3af" stroke-width="1.5"/>
+  <ellipse cx="355" cy="145" rx="43" ry="28" fill="#e2e8f0" stroke="#9ca3af" stroke-width="1"/>
+  <!-- Molten Si -->
+  <ellipse cx="355" cy="155" rx="33" ry="20" fill="#fbbf24" opacity="0.6"/>
+  <text x="355" y="158" text-anchor="middle" font-size="7" fill="#92400e">熔融硅 (1414°C)</text>
+
+  <!-- Seed crystal -->
+  <rect x="350" y="100" width="10" height="45" fill="#93c5fd" stroke="#3b82f6" stroke-width="0.5"/>
+  <text x="380" y="120" font-size="7" fill="#1d4ed8">籽晶</text>
+
+  <!-- Growing crystal -->
+  <rect x="348" y="70" width="14" height="30" rx="2" fill="#60a5fa" stroke="#3b82f6" stroke-width="0.5"/>
+  <text x="380" y="82" font-size="7" fill="#1d4ed8">生长晶体</text>
+
+  <!-- Rotation -->
+  <path d="M 390 80 A 40 15 0 0 1 430 82" fill="none" stroke="#64748b" stroke-width="1"/>
+  <polygon points="428,79 432,82 428,85" fill="#64748b"/>
+
+  <text x="355" y="215" text-anchor="middle" font-size="8" fill="#1e40af">籽晶缓慢旋转并向上提拉</text>
+  <text x="355" y="228" text-anchor="middle" font-size="8" fill="#1e40af">熔融硅在籽晶上凝固结晶</text>
+  <text x="355" y="241" text-anchor="middle" font-size="8" fill="#1e40af">形成单晶硅锭 (Ingot)</text>
+
+  <!-- Ingot -->
+  <rect x="315" y="255" width="80" height="70" rx="6" fill="#93c5fd" stroke="#3b82f6" stroke-width="1"/>
+  <ellipse cx="355" cy="255" rx="40" ry="8" fill="#bfdbfe" stroke="#3b82f6" stroke-width="0.5"/>
+  <text x="355" y="285" text-anchor="middle" font-size="9" fill="#1e3a5f" font-weight="bold">硅锭</text>
+  <text x="355" y="300" text-anchor="middle" font-size="7" fill="#1e3a5f">~300mm 直径</text>
+  <text x="355" y="313" text-anchor="middle" font-size="7" fill="#1e3a5f">~2m 长</text>
+
+  <!-- Arrow -->
+  <polygon points="480,150 510,140 480,130 510,150" fill="#94a3b8"/>
+
+  <!-- Right: wafer slicing -->
+  <rect x="520" y="45" width="305" height="140" rx="6" fill="#f0fdf4" stroke="#86efac" stroke-width="1.5"/>
+  <text x="672" y="68" text-anchor="middle" font-size="11" font-weight="bold" fill="#166534">③ 切片与抛光</text>
+  <text x="672" y="86" text-anchor="middle" font-size="9" fill="#166534">硅锭 → 金刚石线锯切片</text>
+  <text x="672" y="102" text-anchor="middle" font-size="9" fill="#166534">→ 晶圆粗磨 (Lapping)</text>
+  <text x="672" y="118" text-anchor="middle" font-size="9" fill="#166534">→ 化学机械抛光 (CMP)</text>
+  <text x="672" y="134" text-anchor="middle" font-size="9" fill="#166534">→ 镜面级平整度 (±2μm)</text>
+
+  <!-- Wafer -->
+  <circle cx="672" cy="215" r="55" fill="#bfdbfe" stroke="#3b82f6" stroke-width="2"/>
+  <circle cx="672" cy="215" r="40" fill="none" stroke="#93c5fd" stroke-width="0.5" stroke-dasharray="4,2"/>
+  <text x="672" y="210" text-anchor="middle" font-size="10" fill="#1e3a5f" font-weight="bold">晶圆</text>
+  <text x="672" y="225" text-anchor="middle" font-size="8" fill="#1e3a5f">(Wafer)</text>
+  <text x="672" y="240" text-anchor="middle" font-size="7" fill="#1e3a5f">厚度 ~775μm</text>
+
+  <text x="672" y="285" text-anchor="middle" font-size="9" fill="#475569">一片 300mm 晶圆可切出</text>
+  <text x="672" y="300" text-anchor="middle" font-size="10" fill="#059669" font-weight="bold">数百~数千颗芯片</text>
+
+  <!-- Note -->
+  <rect x="25" y="335" width="195" height="50" rx="4" fill="#fefce8" stroke="#fde68a" stroke-width="0.5"/>
+  <text x="122" y="355" text-anchor="middle" font-size="8" fill="#a16207">99.9999999% = 十亿分之一杂质</text>
+  <text x="122" y="370" text-anchor="middle" font-size="8" fill="#a16207">比地球上任何天然物质都纯</text>
+</svg>

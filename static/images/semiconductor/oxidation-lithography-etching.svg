@@ -1,0 +1,233 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" font-family="sans-serif">
+  <rect width="1000" height="720" fill="#f8fafc" rx="8"/>
+  <text x="500" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#1e293b">氧化 → 光刻 → 刻蚀：图形转移三步曲</text>
+  <text x="500" y="48" text-anchor="middle" font-size="11" fill="#64748b">光刻是芯片制造的"灵魂"—— 将电路图案从掩模版精确转移到晶圆表面</text>
+
+  <!-- ==================== ① OXIDATION ==================== -->
+  <rect x="10" y="60" width="310" height="310" rx="6" fill="#fff1f2" stroke="#fda4af" stroke-width="1.5"/>
+  <rect x="10" y="60" width="310" height="30" rx="6" fill="#fecdd3"/>
+  <text x="165" y="80" text-anchor="middle" font-size="13" font-weight="bold" fill="#9f1239">① 氧化 Oxidation</text>
+  <text x="165" y="98" text-anchor="middle" font-size="10" fill="#881337">干氧: Si+O₂→SiO₂ / 湿氧: Si+2H₂O→SiO₂+2H₂</text>
+
+  <!-- Furnace tube cross-section -->
+  <rect x="30" y="110" width="270" height="32" rx="6" fill="#fecdd3" stroke="#e11d48" stroke-width="2"/>
+  <text x="165" y="132" text-anchor="middle" font-size="10" fill="#9f1239" font-weight="bold">高温炉管 900~1200°C</text>
+
+  <!-- Si wafer before oxidation -->
+  <rect x="50" y="155" width="230" height="18" rx="3" fill="#cbd5e1" stroke="#64748b" stroke-width="1"/>
+  <text x="165" y="168" text-anchor="middle" font-size="9" fill="#475569">裸硅晶圆 (Si)</text>
+
+  <!-- Arrow down -->
+  <polygon points="165,178 158,185 172,185" fill="#e11d48"/>
+  <text x="180" y="185" font-size="9" fill="#881337">O₂ / H₂O</text>
+
+  <!-- After oxidation -->
+  <rect x="50" y="192" width="230" height="28" rx="3" fill="#e2e8f0" stroke="#64748b" stroke-width="1"/>
+  <rect x="50" y="192" width="230" height="10" rx="3" fill="#93c5fd" stroke="#3b82f6" stroke-width="1"/>
+  <rect x="50" y="202" width="230" height="18" fill="#cbd5e1"/>
+  <text x="165" y="215" text-anchor="middle" font-size="8" fill="#475569">Si 衬底</text>
+  <text x="165" y="200" text-anchor="middle" font-size="8" fill="#1e40af" font-weight="bold">SiO₂ 氧化层</text>
+
+  <!-- Why oxidation -->
+  <text x="30" y="240" font-size="9" fill="#475569" font-weight="bold">▸ 氧化层三大作用:</text>
+  <text x="35" y="255" font-size="9" fill="#64748b">• 栅氧化层: MOS 管核心介质</text>
+  <text x="35" y="270" font-size="9" fill="#64748b">• 场氧化层: 器件间隔离（STI/C）</text>
+  <text x="35" y="285" font-size="9" fill="#64748b">• 牺牲氧化层: 注入前保护硅表面</text>
+
+  <!-- SiO2 properties -->
+  <text x="30" y="305" font-size="9" fill="#475569">▸ SiO₂ 性质: 绝缘性极好(~10¹⁴Ω·cm)、</text>
+  <text x="35" y="320" font-size="9" fill="#475569">Si/SiO₂ 界面态密度低、热稳定性优</text>
+  <text x="30" y="340" font-size="9" fill="#475569">▸ 栅氧厚度: 先进工艺仅 ~1nm (5原子层)</text>
+
+  <!-- ==================== ② PHOTORESIST COATING ==================== -->
+  <rect x="335" y="60" width="310" height="310" rx="6" fill="#eff6ff" stroke="#93c5fd" stroke-width="1.5"/>
+  <rect x="335" y="60" width="310" height="30" rx="6" fill="#bfdbfe"/>
+  <text x="490" y="80" text-anchor="middle" font-size="13" font-weight="bold" fill="#1e40af">② 涂光刻胶 Spin Coating</text>
+
+  <!-- Spin coater -->
+  <rect x="380" y="110" width="220" height="50" rx="6" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <line x1="490" y1="140" x2="490" y2="170" stroke="#3b82f6" stroke-width="2"/>
+  <!-- Wafer on spinner -->
+  <ellipse cx="490" cy="125" rx="70" ry="12" fill="#e2e8f0" stroke="#64748b" stroke-width="1"/>
+  <text x="490" y="129" text-anchor="middle" font-size="8" fill="#475569">晶圆 3000 rpm</text>
+  <!-- PR droplets -->
+  <circle cx="490" cy="108" r="3" fill="#fbbf24"/>
+  <circle cx="478" cy="113" r="2" fill="#f59e0b"/>
+  <circle cx="502" cy="111" r="2" fill="#f59e0b"/>
+  <text x="490" y="105" text-anchor="middle" font-size="7" fill="#92400e">光刻胶滴注</text>
+  <line x1="440" y1="160" x2="540" y2="160" stroke="#3b82f6" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="490" y="176" text-anchor="middle" font-size="8" fill="#1e40af">旋转涂布机</text>
+
+  <!-- After coating cross-section -->
+  <text x="345" y="200" font-size="9" fill="#475569" font-weight="bold">涂胶后截面:</text>
+  <rect x="370" y="210" width="250" height="28" rx="3" fill="#e2e8f0" stroke="#64748b" stroke-width="1"/>
+  <rect x="370" y="210" width="250" height="10" rx="3" fill="#fbbf24" stroke="#d97706" stroke-width="1"/>
+  <rect x="370" y="220" width="250" height="10" fill="#93c5fd" stroke="#3b82f6" stroke-width="1"/>
+  <rect x="370" y="230" width="250" height="8" fill="#cbd5e1"/>
+  <text x="495" y="225" text-anchor="middle" font-size="7" fill="#92400e" font-weight="bold">光刻胶 (PR)</text>
+  <text x="495" y="236" text-anchor="middle" font-size="7" fill="#475569">Si 衬底</text>
+
+  <!-- PR types -->
+  <text x="345" y="260" font-size="9" fill="#475569" font-weight="bold">▸ 光刻胶类型:</text>
+  <text x="350" y="275" font-size="9" fill="#64748b">• 正胶 (Positive): 曝光区可溶 → 显影去除</text>
+  <text x="350" y="290" font-size="9" fill="#64748b">• 负胶 (Negative): 曝光区交联 → 显影保留</text>
+
+  <text x="345" y="310" font-size="9" fill="#475569" font-weight="bold">▸ 关键参数:</text>
+  <text x="350" y="325" font-size="9" fill="#64748b">• 厚度均匀性 &lt;5nm (先进工艺)</text>
+  <text x="350" y="340" font-size="9" fill="#64748b">• 附着性、灵敏度、抗蚀性</text>
+
+  <!-- ==================== ③ EXPOSURE ==================== -->
+  <rect x="660" y="60" width="330" height="310" rx="6" fill="#f0fdf4" stroke="#86efac" stroke-width="1.5"/>
+  <rect x="660" y="60" width="330" height="30" rx="6" fill="#bbf7d0"/>
+  <text x="825" y="80" text-anchor="middle" font-size="13" font-weight="bold" fill="#166534">③ 曝光 Exposure</text>
+
+  <!-- Light source at top -->
+  <rect x="750" y="100" width="150" height="28" rx="6" fill="#dcfce7" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="825" y="119" text-anchor="middle" font-size="10" font-weight="bold" fill="#166534">光 源</text>
+
+  <!-- DUV and EUV boxes side by side -->
+  <rect x="670" y="138" width="145" height="42" rx="4" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="742" y="153" text-anchor="middle" font-size="11" font-weight="bold" fill="#92400e">DUV 深紫外</text>
+  <text x="742" y="168" text-anchor="middle" font-size="10" fill="#b45309">波长: 193nm (ArF)</text>
+  <text x="742" y="180" text-anchor="middle" font-size="8" fill="#92400e">工艺: 7nm~65nm</text>
+
+  <rect x="830" y="138" width="150" height="42" rx="4" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="905" y="153" text-anchor="middle" font-size="11" font-weight="bold" fill="#1e40af">EUV 极紫外</text>
+  <text x="905" y="168" text-anchor="middle" font-size="10" fill="#1d4ed8">波长: 13.5nm (Sn等离子)</text>
+  <text x="905" y="180" text-anchor="middle" font-size="8" fill="#1e40af">工艺: 3nm~7nm</text>
+
+  <!-- Light beams -->
+  <line x1="742" y1="182" x2="742" y2="210" stroke="#f59e0b" stroke-width="2" stroke-dasharray="4,3"/>
+  <line x1="905" y1="182" x2="905" y2="210" stroke="#3b82f6" stroke-width="2" stroke-dasharray="4,3"/>
+
+  <!-- Mask -->
+  <rect x="700" y="195" width="85" height="30" rx="3" fill="#334155" stroke="#1e293b" stroke-width="1.5"/>
+  <rect x="700" y="195" width="30" height="30" fill="#94a3b8"/>
+  <rect x="755" y="195" width="30" height="30" fill="#94a3b8"/>
+  <text x="742" y="215" text-anchor="middle" font-size="7" fill="#cbd5e1">掩模版</text>
+
+  <rect x="880" y="195" width="85" height="30" rx="3" fill="#334155" stroke="#1e293b" stroke-width="1.5"/>
+  <rect x="880" y="195" width="30" height="30" fill="#94a3b8"/>
+  <rect x="935" y="195" width="30" height="30" fill="#94a3b8"/>
+  <text x="922" y="215" text-anchor="middle" font-size="7" fill="#cbd5e1">掩模版</text>
+
+  <!-- Lens -->
+  <ellipse cx="740" cy="245" rx="38" ry="8" fill="none" stroke="#64748b" stroke-width="1.5"/>
+  <text x="740" y="250" text-anchor="middle" font-size="7" fill="#475569">投影透镜</text>
+  <ellipse cx="910" cy="245" rx="38" ry="8" fill="none" stroke="#64748b" stroke-width="1.5"/>
+  <text x="910" y="250" text-anchor="middle" font-size="7" fill="#475569">反射镜组</text>
+
+  <!-- Wafer after exposure -->
+  <text x="670" y="280" font-size="9" fill="#475569" font-weight="bold">曝光后截面 (正胶):</text>
+  <rect x="670" y="290" width="310" height="28" rx="3" fill="#e2e8f0" stroke="#64748b" stroke-width="1"/>
+  <rect x="670" y="290" width="80" height="10" rx="3" fill="#fbbf24" stroke="#d97706" stroke-width="1"/>
+  <rect x="755" y="290" width="80" height="10" rx="3" fill="#fcd34d" stroke="#f59e0b" stroke-width="1" stroke-dasharray="2,2"/>
+  <rect x="840" y="290" width="80" height="10" rx="3" fill="#fbbf24" stroke="#d97706" stroke-width="1"/>
+  <rect x="925" y="290" width="55" height="10" rx="3" fill="#fcd34d" stroke="#f59e0b" stroke-width="1" stroke-dasharray="2,2"/>
+  <rect x="670" y="300" width="310" height="18" fill="#cbd5e1"/>
+  <text x="710" y="298" text-anchor="middle" font-size="7" fill="#92400e">未曝光</text>
+  <text x="795" y="298" text-anchor="middle" font-size="7" fill="#b45309">已曝光</text>
+  <text x="880" y="298" text-anchor="middle" font-size="7" fill="#92400e">未曝光</text>
+  <text x="825" y="313" text-anchor="middle" font-size="7" fill="#475569">Si 衬底</text>
+
+  <!-- ==================== ④ DEVELOPMENT ==================== -->
+  <rect x="10" y="385" width="320" height="200" rx="6" fill="#faf5ff" stroke="#d8b4fe" stroke-width="1.5"/>
+  <rect x="10" y="385" width="320" height="30" rx="6" fill="#e9d5ff"/>
+  <text x="170" y="405" text-anchor="middle" font-size="13" font-weight="bold" fill="#6b21a8">④ 显影 Development</text>
+
+  <!-- Positive resist outcome -->
+  <text x="20" y="430" font-size="10" font-weight="bold" fill="#6b21a8">正胶结果: 曝光区被洗掉</text>
+  <rect x="25" y="440" width="140" height="25" rx="3" fill="#e2e8f0" stroke="#64748b" stroke-width="1"/>
+  <rect x="25" y="440" width="40" height="12" rx="3" fill="#fbbf24"/>
+  <rect x="80" y="440" width="35" height="12" fill="#cbd5e1"/>
+  <rect x="130" y="440" width="35" height="12" rx="3" fill="#fbbf24"/>
+  <rect x="25" y="452" width="140" height="13" fill="#cbd5e1"/>
+  <text x="95" y="462" text-anchor="middle" font-size="7" fill="#475569">Si 衬底</text>
+
+  <!-- Negative resist outcome -->
+  <text x="180" y="430" font-size="10" font-weight="bold" fill="#6b21a8">负胶结果: 未曝光区被洗掉</text>
+  <rect x="185" y="440" width="135" height="25" rx="3" fill="#e2e8f0" stroke="#64748b" stroke-width="1"/>
+  <rect x="185" y="440" width="40" height="12" fill="#cbd5e1"/>
+  <rect x="240" y="440" width="35" height="12" rx="3" fill="#fbbf24"/>
+  <rect x="290" y="440" width="30" height="12" fill="#cbd5e1"/>
+  <rect x="185" y="452" width="135" height="13" fill="#cbd5e1"/>
+  <text x="252" y="462" text-anchor="middle" font-size="7" fill="#475569">Si 衬底</text>
+
+  <!-- Developer chemistry -->
+  <rect x="25" y="480" width="290" height="50" rx="4" fill="#f3e8ff" stroke="#a855f7" stroke-width="1"/>
+  <text x="170" y="496" text-anchor="middle" font-size="9" fill="#6b21a8" font-weight="bold">显影液 TMAH (四甲基氢氧化铵)</text>
+  <text x="170" y="512" text-anchor="middle" font-size="8" fill="#7e22ce">• 选择性溶解曝光(正胶)或未曝光(负胶)区域</text>
+  <text x="170" y="526" text-anchor="middle" font-size="8" fill="#7e22ce">• 分辨率可达亚纳米级</text>
+
+  <!-- ==================== ⑤ ETCHING ==================== -->
+  <rect x="345" y="385" width="310" height="200" rx="6" fill="#fefce8" stroke="#fde68a" stroke-width="1.5"/>
+  <rect x="345" y="385" width="310" height="30" rx="6" fill="#fef08a"/>
+  <text x="500" y="405" text-anchor="middle" font-size="13" font-weight="bold" fill="#854d0e">⑤ 刻蚀 Etching</text>
+
+  <!-- Wet etching -->
+  <rect x="355" y="425" width="140" height="75" rx="4" fill="#fef9c3" stroke="#eab308" stroke-width="1"/>
+  <text x="425" y="442" text-anchor="middle" font-size="10" font-weight="bold" fill="#854d0e">湿法刻蚀 (各向同性)</text>
+  <!-- Before -->
+  <rect x="365" y="452" width="120" height="18" rx="2" fill="#e2e8f0" stroke="#64748b" stroke-width="1"/>
+  <rect x="365" y="452" width="120" height="8" rx="2" fill="#fbbf24"/>
+  <rect x="380" y="452" width="30" height="8" fill="#cbd5e1"/>
+  <rect x="365" y="460" width="120" height="10" rx="2" fill="#cbd5e1"/>
+  <text x="365" y="458" font-size="6" fill="#92400e">前</text>
+  <!-- Arrow -->
+  <text x="455" y="475" font-size="14" fill="#eab308">→</text>
+  <!-- After -->
+  <rect x="470" y="452" width="120" height="18" rx="2" fill="#e2e8f0" stroke="#64748b" stroke-width="1"/>
+  <rect x="470" y="452" width="120" height="8" rx="2" fill="#fbbf24"/>
+  <rect x="485" y="452" width="30" height="8" fill="#cbd5e1"/>
+  <rect x="470" y="460" width="120" height="10" rx="2" fill="#cbd5e1"/>
+  <!-- Undercut -->
+  <path d="M485,452 Q475,448 472,440" fill="none" stroke="#eab308" stroke-width="0.8" stroke-dasharray="2,2"/>
+  <path d="M515,452 Q525,448 528,440" fill="none" stroke="#eab308" stroke-width="0.8" stroke-dasharray="2,2"/>
+  <text x="530" y="475" font-size="6" fill="#854d0e">后 (底切)</text>
+
+  <!-- Dry etching -->
+  <rect x="510" y="425" width="135" height="75" rx="4" fill="#fef9c3" stroke="#eab308" stroke-width="1"/>
+  <text x="577" y="442" text-anchor="middle" font-size="10" font-weight="bold" fill="#854d0e">干法刻蚀 (各向异性)</text>
+  <rect x="520" y="452" width="115" height="18" rx="2" fill="#e2e8f0" stroke="#64748b" stroke-width="1"/>
+  <rect x="520" y="452" width="115" height="8" rx="2" fill="#fbbf24"/>
+  <rect x="535" y="452" width="25" height="8" fill="#cbd5e1"/>
+  <rect x="520" y="460" width="115" height="10" rx="2" fill="#cbd5e1"/>
+  <text x="560" y="475" font-size="6" fill="#854d0e">RIE 等离子体 ↑</text>
+
+  <!-- Etch comparison -->
+  <text x="355" y="518" font-size="9" fill="#475569" font-weight="bold">▸ 对比:</text>
+  <text x="360" y="533" font-size="8" fill="#64748b">湿法: 各向同性, 有底切 (undercut)</text>
+  <text x="360" y="548" font-size="8" fill="#64748b">干法 (RIE): 各向异性, 方向性强</text>
+  <text x="360" y="563" font-size="8" fill="#64748b">• 先进工艺几乎全部使用等离子体干法刻蚀</text>
+  <text x="360" y="578" font-size="8" fill="#64748b">• 高深宽比 (AR>50:1) 刻蚀是 3D NAND 关键</text>
+
+  <!-- ==================== ⑥ STRIPPING ==================== -->
+  <rect x="670" y="385" width="320" height="200" rx="6" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="670" y="385" width="320" height="30" rx="6" fill="#e2e8f0"/>
+  <text x="830" y="405" text-anchor="middle" font-size="13" font-weight="bold" fill="#334155">⑥ 去胶 &amp; 清洗</text>
+
+  <!-- Before/After stripping -->
+  <text x="680" y="430" font-size="10" font-weight="bold" fill="#334155">去胶前:</text>
+  <rect x="690" y="440" width="280" height="25" rx="3" fill="#e2e8f0" stroke="#64748b" stroke-width="1"/>
+  <rect x="690" y="440" width="280" height="10" rx="3" fill="#fbbf24"/>
+  <rect x="700" y="440" width="40" height="10" fill="#cbd5e1"/>
+  <rect x="760" y="440" width="40" height="10" fill="#cbd5e1"/>
+  <rect x="690" y="450" width="280" height="15" fill="#cbd5e1"/>
+
+  <text x="680" y="490" font-size="10" font-weight="bold" fill="#334155">去胶后:</text>
+  <rect x="690" y="500" width="280" height="20" rx="3" fill="#e2e8f0" stroke="#64748b" stroke-width="1"/>
+  <rect x="700" y="500" width="40" height="10" fill="#cbd5e1"/>
+  <rect x="760" y="500" width="40" height="10" fill="#cbd5e1"/>
+  <rect x="690" y="510" width="280" height="10" fill="#cbd5e1"/>
+
+  <text x="690" y="540" font-size="9" fill="#475569">▸ 去胶方法:</text>
+  <text x="695" y="555" font-size="8" fill="#64748b">• 等离子体灰化 (O₂ plasma ashing)</text>
+  <text x="695" y="570" font-size="8" fill="#64748b">• 湿法溶剂剥离 (H₂SO₄+H₂O₂)</text>
+
+  <!-- ==================== BOTTOM: CYCLE NOTE ==================== -->
+  <rect x="10" y="600" width="980" height="110" rx="6" fill="#0f172a"/>
+  <text x="500" y="625" text-anchor="middle" font-size="13" font-weight="bold" fill="#f8fafc">光刻是芯片制造中重复次数最多的步骤</text>
+  <text x="500" y="648" text-anchor="middle" font-size="10" fill="#94a3b8">一片先进芯片 (如 Apple A17 Pro) 需要经历 60~80+ 次光刻循环</text>
+  <text x="500" y="668" text-anchor="middle" font-size="10" fill="#94a3b8">每次循环: 氧化 → 涂胶 → 曝光 → 显影 → 刻蚀 → 去胶 → 清洗 — 不同层用不同掩模版</text>
+  <text x="500" y="692" text-anchor="middle" font-size="10" fill="#64748b">分辨率极限 (瑞利判据): R = k₁·λ / NA — 波长越短分辨率越高 | EUV 13.5nm 使 3nm 成为可能</text>
+</svg>

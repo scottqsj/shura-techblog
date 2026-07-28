@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="sans-serif">
+  <rect width="800" height="500" fill="#f8fafc" rx="8"/>
+
+  <text x="400" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#1e293b">PN 结：半导体的灵魂</text>
+
+  <!-- PN junction cross-section -->
+  <rect x="50" y="50" width="350" height="200" rx="6" fill="#fef2f2" stroke="#fca5a5" stroke-width="1.5"/>
+  <rect x="400" y="50" width="350" height="200" rx="6" fill="#eff6ff" stroke="#93c5fd" stroke-width="1.5"/>
+
+  <text x="225" y="75" text-anchor="middle" font-size="14" font-weight="bold" fill="#991b1b">P 型区</text>
+  <text x="575" y="75" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e40af">N 型区</text>
+
+  <!-- Holes in P region -->
+  <circle cx="120" cy="120" r="5" fill="none" stroke="#ef4444" stroke-width="2"/>
+  <circle cx="170" cy="140" r="5" fill="none" stroke="#ef4444" stroke-width="2"/>
+  <circle cx="140" cy="170" r="5" fill="none" stroke="#ef4444" stroke-width="2"/>
+  <circle cx="200" cy="115" r="5" fill="none" stroke="#ef4444" stroke-width="2"/>
+  <circle cx="250" cy="155" r="5" fill="none" stroke="#ef4444" stroke-width="2"/>
+  <circle cx="300" cy="130" r="5" fill="none" stroke="#ef4444" stroke-width="2"/>
+  <circle cx="180" cy="190" r="5" fill="none" stroke="#ef4444" stroke-width="2"/>
+
+  <!-- Negative ions in P depletion -->
+  <circle cx="350" cy="120" r="6" fill="#fecaca" stroke="#ef4444" stroke-width="1"/>
+  <text x="350" y="123" text-anchor="middle" font-size="7" fill="#991b1b">−</text>
+  <circle cx="365" cy="150" r="6" fill="#fecaca" stroke="#ef4444" stroke-width="1"/>
+  <text x="365" y="153" text-anchor="middle" font-size="7" fill="#991b1b">−</text>
+  <circle cx="380" cy="170" r="6" fill="#fecaca" stroke="#ef4444" stroke-width="1"/>
+  <text x="380" y="173" text-anchor="middle" font-size="7" fill="#991b1b">−</text>
+
+  <!-- Positive ions in N depletion -->
+  <circle cx="420" cy="120" r="6" fill="#bfdbfe" stroke="#3b82f6" stroke-width="1"/>
+  <text x="420" y="123" text-anchor="middle" font-size="7" fill="#1e40af">+</text>
+  <circle cx="435" cy="150" r="6" fill="#bfdbfe" stroke="#3b82f6" stroke-width="1"/>
+  <text x="435" y="153" text-anchor="middle" font-size="7" fill="#1e40af">+</text>
+  <circle cx="450" cy="170" r="6" fill="#bfdbfe" stroke="#3b82f6" stroke-width="1"/>
+  <text x="450" y="173" text-anchor="middle" font-size="7" fill="#1e40af">+</text>
+
+  <!-- Electrons in N region -->
+  <circle cx="500" cy="120" r="5" fill="#3b82f6"/>
+  <text x="500" y="123" text-anchor="middle" font-size="6" fill="white">e</text>
+  <circle cx="550" cy="140" r="5" fill="#3b82f6"/>
+  <text x="550" y="143" text-anchor="middle" font-size="6" fill="white">e</text>
+  <circle cx="520" cy="170" r="5" fill="#3b82f6"/>
+  <text x="520" y="173" text-anchor="middle" font-size="6" fill="white">e</text>
+  <circle cx="580" cy="115" r="5" fill="#3b82f6"/>
+  <text x="580" y="118" text-anchor="middle" font-size="6" fill="white">e</text>
+  <circle cx="630" cy="155" r="5" fill="#3b82f6"/>
+  <text x="630" y="158" text-anchor="middle" font-size="6" fill="white">e</text>
+  <circle cx="600" cy="185" r="5" fill="#3b82f6"/>
+  <text x="600" y="188" text-anchor="middle" font-size="6" fill="white">e</text>
+  <circle cx="680" cy="135" r="5" fill="#3b82f6"/>
+  <text x="680" y="138" text-anchor="middle" font-size="6" fill="white">e</text>
+
+  <!-- Depletion zone label and bracket -->
+  <rect x="340" y="55" width="120" height="190" rx="4" fill="none" stroke="#f59e0b" stroke-width="2" stroke-dasharray="4,3"/>
+  <text x="400" y="40" text-anchor="middle" font-size="11" font-weight="bold" fill="#d97706">耗尽层</text>
+
+  <!-- Built-in E-field arrow -->
+  <line x1="310" y1="220" x2="490" y2="220" stroke="#8b5cf6" stroke-width="2"/>
+  <polygon points="490,220 480,215 480,225" fill="#8b5cf6"/>
+  <text x="400" y="238" text-anchor="middle" font-size="10" fill="#7c3aed">内建电场方向</text>
+
+  <!-- Forward bias -->
+  <text x="400" y="280" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e293b">正向偏置（导通） vs 反向偏置（截止）</text>
+
+  <!-- Forward bias diagram -->
+  <rect x="30" y="300" width="350" height="85" rx="6" fill="#f0fdf4" stroke="#86efac" stroke-width="1.5"/>
+  <text x="205" y="320" text-anchor="middle" font-size="13" font-weight="bold" fill="#166534">正向偏置 → 导通</text>
+
+  <rect x="50" y="335" width="80" height="30" rx="3" fill="#fecaca" stroke="#fca5a5" stroke-width="1"/>
+  <text x="90" y="355" text-anchor="middle" font-size="11" fill="#991b1b">P</text>
+  <rect x="130" y="335" width="80" height="30" rx="3" fill="#bfdbfe" stroke="#93c5fd" stroke-width="1"/>
+  <text x="170" y="355" text-anchor="middle" font-size="11" fill="#1e40af">N</text>
+
+  <circle cx="55" cy="350" r="6" fill="none" stroke="#ef4444" stroke-width="2"/>
+  <circle cx="70" cy="350" r="6" fill="none" stroke="#ef4444" stroke-width="2"/>
+  <circle cx="145" cy="350" r="5" fill="#3b82f6"/>
+  <text x="145" y="353" text-anchor="middle" font-size="6" fill="white">e</text>
+  <circle cx="160" cy="350" r="5" fill="#3b82f6"/>
+  <text x="160" y="353" text-anchor="middle" font-size="6" fill="white">e</text>
+
+  <!-- Battery -->
+  <line x1="230" y1="335" x2="230" y2="365" stroke="#334155" stroke-width="2"/>
+  <line x1="250" y1="335" x2="250" y2="365" stroke="#334155" stroke-width="2"/>
+  <line x1="235" y1="355" x2="260" y2="355" stroke="#10b981" stroke-width="2"/>
+  <polygon points="265,355 255,349 255,361" fill="#10b981"/>
+  <text x="215" y="375" text-anchor="middle" font-size="9" fill="#166534">P接正 N接负</text>
+  <text x="300" y="360" text-anchor="middle" font-size="10" fill="#166534">电流通 ✅</text>
+
+  <!-- Reverse bias diagram -->
+  <rect x="420" y="300" width="350" height="85" rx="6" fill="#fef2f2" stroke="#fca5a5" stroke-width="1.5"/>
+  <text x="595" y="320" text-anchor="middle" font-size="13" font-weight="bold" fill="#991b1b">反向偏置 → 截止</text>
+
+  <rect x="440" y="335" width="80" height="30" rx="3" fill="#fecaca" stroke="#fca5a5" stroke-width="1"/>
+  <text x="480" y="355" text-anchor="middle" font-size="11" fill="#991b1b">P</text>
+  <rect x="520" y="335" width="80" height="30" rx="3" fill="#bfdbfe" stroke="#93c5fd" stroke-width="1"/>
+  <text x="560" y="355" text-anchor="middle" font-size="11" fill="#1e40af">N</text>
+
+  <!-- Depletion widened -->
+  <rect x="510" y="332" width="20" height="36" rx="2" fill="#fde68a" opacity="0.7"/>
+  <text x="520" y="325" text-anchor="middle" font-size="8" fill="#d97706">变宽</text>
+
+  <circle cx="455" cy="350" r="6" fill="none" stroke="#ef4444" stroke-width="2"/>
+  <circle cx="535" cy="350" r="5" fill="#3b82f6"/>
+  <text x="535" y="353" text-anchor="middle" font-size="6" fill="white">e</text>
+
+  <!-- Battery -->
+  <line x1="620" y1="335" x2="620" y2="365" stroke="#334155" stroke-width="2"/>
+  <line x1="640" y1="335" x2="640" y2="365" stroke="#334155" stroke-width="2"/>
+  <line x1="625" y1="355" x2="650" y2="355" stroke="#ef4444" stroke-width="2"/>
+  <polygon points="655,355 645,349 645,361" fill="#ef4444"/>
+  <text x="605" y="375" text-anchor="middle" font-size="9" fill="#991b1b">P接负 N接正</text>
+  <text x="690" y="360" text-anchor="middle" font-size="10" fill="#991b1b">不通 ❌</text>
+
+  <!-- Bottom note -->
+  <text x="400" y="415" text-anchor="middle" font-size="12" fill="#64748b">PN 结是二极管的基础，也是 MOS 管的核心组成部分</text>
+
+  <!-- Current arrows for forward bias -->
+  <path d="M200,370 Q240,400 300,370" fill="none" stroke="#10b981" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <polygon points="300,370 293,366 293,374" fill="#10b981"/>
+</svg>

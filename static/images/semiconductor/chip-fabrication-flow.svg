@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 550" font-family="sans-serif">
+  <rect width="800" height="550" fill="#f8fafc" rx="8"/>
+
+  <text x="400" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#1e293b">芯片制造全流程：从沙子到集成电路</text>
+  <text x="400" y="50" text-anchor="middle" font-size="11" fill="#64748b">约 400~600 道工序，历时 2~3 个月</text>
+
+  <!-- Step 1: Sand -->
+  <rect x="30" y="68" width="160" height="75" rx="6" fill="#fef3c7" stroke="#fcd34d" stroke-width="1.5"/>
+  <text x="110" y="92" text-anchor="middle" font-size="13" font-weight="bold" fill="#92400e">① 沙子提纯</text>
+  <text x="110" y="110" text-anchor="middle" font-size="10" fill="#78716c">SiO₂ → 多晶硅</text>
+  <text x="110" y="126" text-anchor="middle" font-size="9" fill="#d97706">纯度 99.9999999%</text>
+
+  <!-- Arrow -->
+  <line x1="190" y1="105" x2="220" y2="105" stroke="#94a3b8" stroke-width="2"/>
+  <polygon points="220,105 213,100 213,110" fill="#94a3b8"/>
+
+  <!-- Step 2: Crystal -->
+  <rect x="225" y="68" width="160" height="75" rx="6" fill="#fef3c7" stroke="#fcd34d" stroke-width="1.5"/>
+  <text x="305" y="92" text-anchor="middle" font-size="13" font-weight="bold" fill="#92400e">② 拉单晶</text>
+  <text x="305" y="110" text-anchor="middle" font-size="10" fill="#78716c">CZ 法拉晶锭</text>
+  <text x="305" y="126" text-anchor="middle" font-size="9" fill="#d97706">1414°C 熔融硅</text>
+
+  <!-- Arrow -->
+  <line x1="385" y1="105" x2="415" y2="105" stroke="#94a3b8" stroke-width="2"/>
+  <polygon points="415,105 408,100 408,110" fill="#94a3b8"/>
+
+  <!-- Step 3: Wafer -->
+  <rect x="420" y="68" width="160" height="75" rx="6" fill="#fef3c7" stroke="#fcd34d" stroke-width="1.5"/>
+  <text x="500" y="92" text-anchor="middle" font-size="13" font-weight="bold" fill="#92400e">③ 切片抛光</text>
+  <text x="500" y="110" text-anchor="middle" font-size="10" fill="#78716c">切成 0.7mm 晶圆</text>
+  <text x="500" y="126" text-anchor="middle" font-size="9" fill="#d97706">镜面级光滑表面</text>
+
+  <!-- Arrow -->
+  <line x1="580" y1="105" x2="610" y2="105" stroke="#94a3b8" stroke-width="2"/>
+  <polygon points="610,105 603,100 603,110" fill="#94a3b8"/>
+
+  <!-- Step 4: Wafer icon -->
+  <rect x="615" y="68" width="160" height="75" rx="6" fill="#dbeafe" stroke="#93c5fd" stroke-width="2"/>
+  <text x="695" y="92" text-anchor="middle" font-size="13" font-weight="bold" fill="#1e40af">晶圆就绪</text>
+  <text x="695" y="110" text-anchor="middle" font-size="10" fill="#3b82f6">300mm (12 英寸)</text>
+  <text x="695" y="126" text-anchor="middle" font-size="9" fill="#64748b">可切数百颗芯片</text>
+
+  <!-- Big downward arrow into FEOL -->
+  <line x1="400" y1="145" x2="400" y2="180" stroke="#64748b" stroke-width="2"/>
+  <polygon points="400,180 394,170 406,170" fill="#64748b"/>
+
+  <!-- ========= FEOL BOX ========= -->
+  <rect x="20" y="185" width="760" height="160" rx="8" fill="#f0fdf4" stroke="#86efac" stroke-width="2"/>
+  <text x="400" y="210" text-anchor="middle" font-size="15" font-weight="bold" fill="#166534">前道工艺 (FEOL) — 在硅片上制造 MOS 管</text>
+
+  <!-- FEOL: Oxidation -->
+  <rect x="35" y="225" width="105" height="50" rx="5" fill="white" stroke="#86efac" stroke-width="1"/>
+  <text x="87" y="246" text-anchor="middle" font-size="11" font-weight="bold" fill="#166534">氧化</text>
+  <text x="87" y="262" text-anchor="middle" font-size="9" fill="#64748b">长 SiO₂ 层</text>
+
+  <line x1="140" y1="250" x2="155" y2="250" stroke="#86efac" stroke-width="1.5"/>
+  <polygon points="155,250 149,246 149,254" fill="#86efac"/>
+
+  <!-- FEOL: Lithography -->
+  <rect x="158" y="225" width="105" height="50" rx="5" fill="white" stroke="#86efac" stroke-width="1"/>
+  <text x="210" y="246" text-anchor="middle" font-size="11" font-weight="bold" fill="#166534">光刻</text>
+  <text x="210" y="262" text-anchor="middle" font-size="9" fill="#64748b">图形转移</text>
+
+  <line x1="263" y1="250" x2="278" y2="250" stroke="#86efac" stroke-width="1.5"/>
+  <polygon points="278,250 272,246 272,254" fill="#86efac"/>
+
+  <!-- FEOL: Etching -->
+  <rect x="281" y="225" width="105" height="50" rx="5" fill="white" stroke="#86efac" stroke-width="1"/>
+  <text x="333" y="246" text-anchor="middle" font-size="11" font-weight="bold" fill="#166534">刻蚀</text>
+  <text x="333" y="262" text-anchor="middle" font-size="9" fill="#64748b">等离子/湿法</text>
+
+  <line x1="386" y1="250" x2="401" y2="250" stroke="#86efac" stroke-width="1.5"/>
+  <polygon points="401,250 395,246 395,254" fill="#86efac"/>
+
+  <!-- FEOL: Doping -->
+  <rect x="404" y="225" width="105" height="50" rx="5" fill="white" stroke="#86efac" stroke-width="1"/>
+  <text x="456" y="246" text-anchor="middle" font-size="11" font-weight="bold" fill="#166534">掺杂</text>
+  <text x="456" y="262" text-anchor="middle" font-size="9" fill="#64748b">离子注入/扩散</text>
+
+  <line x1="509" y1="250" x2="524" y2="250" stroke="#86efac" stroke-width="1.5"/>
+  <polygon points="524,250 518,246 518,254" fill="#86efac"/>
+
+  <!-- FEOL: Deposition -->
+  <rect x="527" y="225" width="110" height="50" rx="5" fill="white" stroke="#86efac" stroke-width="1"/>
+  <text x="582" y="246" text-anchor="middle" font-size="11" font-weight="bold" fill="#166534">薄膜沉积</text>
+  <text x="582" y="262" text-anchor="middle" font-size="9" fill="#64748b">CVD / PVD</text>
+
+  <!-- Cycle arrow -->
+  <path d="M642,250 Q660,250 660,230 Q660,215 642,215" fill="none" stroke="#166534" stroke-width="1.5"/>
+  <polygon points="642,215 646,222 638,222" fill="#166534"/>
+  <text x="700" y="240" text-anchor="middle" font-size="9" fill="#166534">循环</text>
+  <text x="700" y="252" text-anchor="middle" font-size="9" fill="#166534">几十次</text>
+
+  <text x="400" y="330" text-anchor="middle" font-size="10" fill="#64748b">以上五步重复数十次，在硅片上同步制造出数十亿个 MOS 管</text>
+
+  <!-- ========= BEOL BOX ========= -->
+  <line x1="400" y1="345" x2="400" y2="375" stroke="#64748b" stroke-width="2"/>
+  <polygon points="400,375 394,365 406,365" fill="#64748b"/>
+
+  <rect x="20" y="380" width="760" height="75" rx="8" fill="#eff6ff" stroke="#93c5fd" stroke-width="2"/>
+  <text x="400" y="405" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e40af">中道/后道工艺 (BEOL) — 互连与封装</text>
+
+  <rect x="40" y="420" width="200" height="25" rx="4" fill="white" stroke="#93c5fd" stroke-width="1"/>
+  <text x="140" y="436" text-anchor="middle" font-size="11" fill="#1e40af">金属化互连（15+ 层）</text>
+
+  <line x1="240" y1="432" x2="260" y2="432" stroke="#93c5fd" stroke-width="1.5"/>
+  <polygon points="260,432 254,428 254,436" fill="#93c5fd"/>
+
+  <rect x="263" y="420" width="160" height="25" rx="4" fill="white" stroke="#93c5fd" stroke-width="1"/>
+  <text x="343" y="436" text-anchor="middle" font-size="11" fill="#1e40af">晶圆测试（探针）</text>
+
+  <line x1="423" y1="432" x2="443" y2="432" stroke="#93c5fd" stroke-width="1.5"/>
+  <polygon points="443,432 437,428 437,436" fill="#93c5fd"/>
+
+  <rect x="446" y="420" width="160" height="25" rx="4" fill="white" stroke="#93c5fd" stroke-width="1"/>
+  <text x="526" y="436" text-anchor="middle" font-size="11" fill="#1e40af">切割（划片）</text>
+
+  <line x1="606" y1="432" x2="626" y2="432" stroke="#93c5fd" stroke-width="1.5"/>
+  <polygon points="626,432 620,428 620,436" fill="#93c5fd"/>
+
+  <rect x="629" y="420" width="130" height="25" rx="4" fill="white" stroke="#93c5fd" stroke-width="1"/>
+  <text x="694" y="436" text-anchor="middle" font-size="11" fill="#1e40af">封装 + 终测</text>
+
+  <!-- Final arrow -->
+  <line x1="400" y1="458" x2="400" y2="485" stroke="#10b981" stroke-width="2.5"/>
+  <polygon points="400,485 394,472 406,472" fill="#10b981"/>
+
+  <rect x="280" y="490" width="240" height="40" rx="8" fill="#dcfce7" stroke="#86efac" stroke-width="2"/>
+  <text x="400" y="515" text-anchor="middle" font-size="16" font-weight="bold" fill="#166534">✓ 芯片成品</text>
+</svg>
