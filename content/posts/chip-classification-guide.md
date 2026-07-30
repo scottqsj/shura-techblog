@@ -1,7 +1,7 @@
 +++
 title = "芯片的分类：从设计类型到应用场景，一次性看懂半导体世界的版图"
 date = "2026-07-30T00:00:00"
-draft = true
+draft = false
 toc = true
 cover.image = "https://img.shashura1.top/d/115pan/blog-img/chip-classification-cover.jpg"
 cover.alt = "芯片的分类：从设计类型到应用场景，看懂半导体世界的版图"
