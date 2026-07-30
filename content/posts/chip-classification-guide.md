@@ -3,10 +3,9 @@ title = "芯片的分类：从设计类型到应用场景，一次性看懂半�
 date = "2026-07-30T00:00:00"
 draft = false
 toc = true
-cover.image = "https://img.shashura1.top/d/115pan/blog-img/chip-classification-cover.jpg"
-cover.alt = "芯片的分类：从设计类型到应用场景，看懂半导体世界的版图"
-cover.caption = "芯片的分类：从设计类型到应用场景，看懂半导体世界的版图"
-description = "从模拟和数字到射频与功率，从单片机到车规级和存储芯片，一文梳理芯片的两大分类体系，帮你快速建立半导体世界的认知框架。"
++++
+
+![封面图](https://img.shashura1.top/d/115pan/blog-img/chip-classification-cover.jpg)
 summary = "芯片种类那么多，怎么分类？按设计维度有模拟、数字、射频、数模混合；按应用维度有 MCU、车规、功率、存储、工控、视频芯片等。这篇文章把两条线串起来，每种芯片配一个你听过或见过的东西当参照。"
 tags = [
     "半导体",
