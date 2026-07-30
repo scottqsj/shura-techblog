@@ -1,0 +1,836 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "hermes-agent",
+  "elements": [
+    {
+      "type": "text",
+      "id": "t_1",
+      "x": 601.0,
+      "y": 15,
+      "width": 98.0,
+      "height": 36,
+      "text": "芯片分类全景图",
+      "fontSize": 28,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "originalText": "芯片分类全景图",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "r_2",
+      "x": 80,
+      "y": 75,
+      "width": 280,
+      "height": 54,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeColor": "#1971c2",
+      "boundElements": [
+        {
+          "id": "t_3",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "t_3",
+      "x": 90,
+      "y": 85,
+      "width": 260,
+      "height": 30,
+      "text": "按设计类型分类",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "r_2",
+      "originalText": "按设计类型分类",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "r_4",
+      "x": 940,
+      "y": 75,
+      "width": 280,
+      "height": 54,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#d0bfff",
+      "fillStyle": "solid",
+      "strokeColor": "#7048e8",
+      "boundElements": [
+        {
+          "id": "t_5",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "t_5",
+      "x": 950,
+      "y": 85,
+      "width": 260,
+      "height": 30,
+      "text": "按功能应用分类",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "r_4",
+      "originalText": "按功能应用分类",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "r_6",
+      "x": 95,
+      "y": 157,
+      "width": 250,
+      "height": 46,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#b2f2bb",
+      "fillStyle": "solid",
+      "strokeColor": "#2f9e44",
+      "boundElements": [
+        {
+          "id": "t_7",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "t_7",
+      "x": 100,
+      "y": 160,
+      "width": 240,
+      "height": 40,
+      "text": "模拟芯片\nAnalog IC",
+      "fontSize": 15,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "r_6",
+      "originalText": "模拟芯片\nAnalog IC",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "r_8",
+      "x": 95,
+      "y": 219,
+      "width": 250,
+      "height": 46,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#ffd8a8",
+      "fillStyle": "solid",
+      "strokeColor": "#e8590c",
+      "boundElements": [
+        {
+          "id": "t_9",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "t_9",
+      "x": 100,
+      "y": 222,
+      "width": 240,
+      "height": 40,
+      "text": "数字芯片\nDigital IC",
+      "fontSize": 15,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "r_8",
+      "originalText": "数字芯片\nDigital IC",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "r_10",
+      "x": 95,
+      "y": 281,
+      "width": 250,
+      "height": 46,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#ffc9c9",
+      "fillStyle": "solid",
+      "strokeColor": "#c92a2a",
+      "boundElements": [
+        {
+          "id": "t_11",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "t_11",
+      "x": 100,
+      "y": 284,
+      "width": 240,
+      "height": 40,
+      "text": "射频芯片\nRF IC",
+      "fontSize": 15,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "r_10",
+      "originalText": "射频芯片\nRF IC",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "r_12",
+      "x": 95,
+      "y": 343,
+      "width": 250,
+      "height": 46,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#c3fae8",
+      "fillStyle": "solid",
+      "strokeColor": "#087f5b",
+      "boundElements": [
+        {
+          "id": "t_13",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "t_13",
+      "x": 100,
+      "y": 346,
+      "width": 240,
+      "height": 40,
+      "text": "数模混合芯片\nMixed-Signal IC",
+      "fontSize": 15,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "r_12",
+      "originalText": "数模混合芯片\nMixed-Signal IC",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "r_14",
+      "x": 940,
+      "y": 157,
+      "width": 200,
+      "height": 46,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#b2f2bb",
+      "fillStyle": "solid",
+      "strokeColor": "#2f9e44",
+      "boundElements": [
+        {
+          "id": "t_15",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "t_15",
+      "x": 945,
+      "y": 165,
+      "width": 190,
+      "height": 36,
+      "text": "MCU / 单片机",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "r_14",
+      "originalText": "MCU / 单片机",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "r_16",
+      "x": 940,
+      "y": 219,
+      "width": 200,
+      "height": 46,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#ffd8a8",
+      "fillStyle": "solid",
+      "strokeColor": "#e8590c",
+      "boundElements": [
+        {
+          "id": "t_17",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "t_17",
+      "x": 945,
+      "y": 227,
+      "width": 190,
+      "height": 36,
+      "text": "车规芯片",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "r_16",
+      "originalText": "车规芯片",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "r_18",
+      "x": 940,
+      "y": 281,
+      "width": 200,
+      "height": 46,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#ffc9c9",
+      "fillStyle": "solid",
+      "strokeColor": "#c92a2a",
+      "boundElements": [
+        {
+          "id": "t_19",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "t_19",
+      "x": 945,
+      "y": 289,
+      "width": 190,
+      "height": 36,
+      "text": "功率器件",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "r_18",
+      "originalText": "功率器件",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "r_20",
+      "x": 940,
+      "y": 343,
+      "width": 200,
+      "height": 46,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#c3fae8",
+      "fillStyle": "solid",
+      "strokeColor": "#087f5b",
+      "boundElements": [
+        {
+          "id": "t_21",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "t_21",
+      "x": 945,
+      "y": 351,
+      "width": 190,
+      "height": 36,
+      "text": "消费电子芯片",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "r_20",
+      "originalText": "消费电子芯片",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "r_22",
+      "x": 1156,
+      "y": 157,
+      "width": 200,
+      "height": 46,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeColor": "#1971c2",
+      "boundElements": [
+        {
+          "id": "t_23",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "t_23",
+      "x": 1161,
+      "y": 165,
+      "width": 190,
+      "height": 36,
+      "text": "存储芯片",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "r_22",
+      "originalText": "存储芯片",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "r_24",
+      "x": 1156,
+      "y": 219,
+      "width": 200,
+      "height": 46,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#d0bfff",
+      "fillStyle": "solid",
+      "strokeColor": "#7048e8",
+      "boundElements": [
+        {
+          "id": "t_25",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "t_25",
+      "x": 1161,
+      "y": 227,
+      "width": 190,
+      "height": 36,
+      "text": "工控芯片",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "r_24",
+      "originalText": "工控芯片",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "r_26",
+      "x": 1156,
+      "y": 281,
+      "width": 200,
+      "height": 46,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#fff3bf",
+      "fillStyle": "solid",
+      "strokeColor": "#f08c00",
+      "boundElements": [
+        {
+          "id": "t_27",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "t_27",
+      "x": 1161,
+      "y": 289,
+      "width": 190,
+      "height": 36,
+      "text": "视频/显示芯片",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "r_26",
+      "originalText": "视频/显示芯片",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "r_28",
+      "x": 1156,
+      "y": 343,
+      "width": 200,
+      "height": 46,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#e9ecef",
+      "fillStyle": "solid",
+      "strokeColor": "#495057",
+      "boundElements": [
+        {
+          "id": "t_29",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "t_29",
+      "x": 1161,
+      "y": 351,
+      "width": 190,
+      "height": 36,
+      "text": "通信/接口芯片",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "r_28",
+      "originalText": "通信/接口芯片",
+      "autoResize": true
+    },
+    {
+      "type": "arrow",
+      "id": "a_30",
+      "x": 220,
+      "y": 129,
+      "width": 0,
+      "height": 23,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          23
+        ]
+      ],
+      "strokeColor": "#868e96",
+      "strokeWidth": 1.5
+    },
+    {
+      "type": "arrow",
+      "id": "a_31",
+      "x": 220,
+      "y": 180,
+      "width": 0,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "strokeColor": "#adb5bd",
+      "strokeWidth": 1
+    },
+    {
+      "type": "arrow",
+      "id": "a_32",
+      "x": 220,
+      "y": 242,
+      "width": 0,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "strokeColor": "#adb5bd",
+      "strokeWidth": 1
+    },
+    {
+      "type": "arrow",
+      "id": "a_33",
+      "x": 220,
+      "y": 304,
+      "width": 0,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "strokeColor": "#adb5bd",
+      "strokeWidth": 1
+    },
+    {
+      "type": "arrow",
+      "id": "a_34",
+      "x": 220,
+      "y": 366,
+      "width": 0,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "strokeColor": "#adb5bd",
+      "strokeWidth": 1
+    },
+    {
+      "type": "arrow",
+      "id": "a_35",
+      "x": 1080,
+      "y": 129,
+      "width": 0,
+      "height": 23,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          23
+        ]
+      ],
+      "strokeColor": "#868e96",
+      "strokeWidth": 1.5
+    },
+    {
+      "type": "arrow",
+      "id": "a_36",
+      "x": 1080,
+      "y": 180,
+      "width": -40,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -40,
+          0
+        ]
+      ],
+      "strokeColor": "#adb5bd",
+      "strokeWidth": 1
+    },
+    {
+      "type": "arrow",
+      "id": "a_37",
+      "x": 1080,
+      "y": 242,
+      "width": -40,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -40,
+          0
+        ]
+      ],
+      "strokeColor": "#adb5bd",
+      "strokeWidth": 1
+    },
+    {
+      "type": "arrow",
+      "id": "a_38",
+      "x": 1080,
+      "y": 304,
+      "width": -40,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -40,
+          0
+        ]
+      ],
+      "strokeColor": "#adb5bd",
+      "strokeWidth": 1
+    },
+    {
+      "type": "arrow",
+      "id": "a_39",
+      "x": 1080,
+      "y": 366,
+      "width": -40,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -40,
+          0
+        ]
+      ],
+      "strokeColor": "#adb5bd",
+      "strokeWidth": 1
+    },
+    {
+      "type": "arrow",
+      "id": "a_40",
+      "x": 1080,
+      "y": 180,
+      "width": 176,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          176,
+          0
+        ]
+      ],
+      "strokeColor": "#adb5bd",
+      "strokeWidth": 1
+    },
+    {
+      "type": "arrow",
+      "id": "a_41",
+      "x": 1080,
+      "y": 242,
+      "width": 176,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          176,
+          0
+        ]
+      ],
+      "strokeColor": "#adb5bd",
+      "strokeWidth": 1
+    },
+    {
+      "type": "arrow",
+      "id": "a_42",
+      "x": 1080,
+      "y": 304,
+      "width": 176,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          176,
+          0
+        ]
+      ],
+      "strokeColor": "#adb5bd",
+      "strokeWidth": 1
+    },
+    {
+      "type": "arrow",
+      "id": "a_43",
+      "x": 1080,
+      "y": 366,
+      "width": 176,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          176,
+          0
+        ]
+      ],
+      "strokeColor": "#adb5bd",
+      "strokeWidth": 1
+    },
+    {
+      "type": "text",
+      "id": "t_44",
+      "x": 527.5,
+      "y": 650,
+      "width": 265.0,
+      "height": 22,
+      "text": "芯片分类的两个维度：设计类型（怎么设计） vs 功能应用（用来做什么）",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "strokeColor": "#868e96",
+      "originalText": "芯片分类的两个维度：设计类型（怎么设计） vs 功能应用（用来做什么）",
+      "autoResize": true
+    }
+  ],
+  "appState": {
+    "viewBackgroundColor": "#ffffff"
+  }
+}

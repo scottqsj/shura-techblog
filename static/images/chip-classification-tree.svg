@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 780" font-family="'Noto Sans SC', 'WenQuanYi Micro Hei', sans-serif">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#f1f5f9"/>
+    </linearGradient>
+    <linearGradient id="designGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+    <linearGradient id="funcGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0f172a" flood-opacity="0.08"/>
+    </filter>
+    <filter id="shadowSmall" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#0f172a" flood-opacity="0.06"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="780" fill="url(#bgGrad)" rx="10"/>
+
+  <!-- Title -->
+  <text x="600" y="42" text-anchor="middle" font-size="22" font-weight="bold" fill="#1e293b">芯片分类全景图</text>
+  <text x="600" y="64" text-anchor="middle" font-size="13" fill="#64748b">两个维度看懂半导体世界的版图</text>
+
+  <!-- ====== LEFT: 按设计类型分类 ====== -->
+  
+  <!-- Left branch box -->
+  <rect x="60" y="90" width="300" height="48" rx="8" fill="url(#designGrad)" filter="url(#shadow)"/>
+  <text x="210" y="120" text-anchor="middle" font-size="17" font-weight="bold" fill="white">按设计类型分类</text>
+
+  <!-- Vertical line from left branch -->
+
+  <!-- Horizontal spread -->
+
+  <!-- Left sub-items (4, 2x2 grid) -->
+  <!-- Row 1 -->
+
+  <rect x="30" y="195" width="200" height="62" rx="6" fill="white" stroke="#3b82f6" stroke-width="1.5" filter="url(#shadowSmall)"/>
+  <rect x="30" y="195" width="200" height="24" rx="6" fill="#eff6ff"/>
+  <text x="130" y="213" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e40af">模拟芯片</text>
+  <text x="130" y="237" text-anchor="middle" font-size="11" fill="#475569">Analog IC</text>
+
+  <rect x="250" y="195" width="200" height="62" rx="6" fill="white" stroke="#f59e0b" stroke-width="1.5" filter="url(#shadowSmall)"/>
+  <rect x="250" y="195" width="200" height="24" rx="6" fill="#fffbeb"/>
+  <text x="350" y="213" text-anchor="middle" font-size="14" font-weight="bold" fill="#b45309">数字芯片</text>
+  <text x="350" y="237" text-anchor="middle" font-size="11" fill="#475569">Digital IC</text>
+
+  <!-- Row 2 -->
+
+  <rect x="30" y="285" width="200" height="62" rx="6" fill="white" stroke="#ef4444" stroke-width="1.5" filter="url(#shadowSmall)"/>
+  <rect x="30" y="285" width="200" height="24" rx="6" fill="#fef2f2"/>
+  <text x="130" y="303" text-anchor="middle" font-size="14" font-weight="bold" fill="#b91c1c">射频芯片</text>
+  <text x="130" y="327" text-anchor="middle" font-size="11" fill="#475569">RF IC</text>
+
+  <rect x="250" y="285" width="200" height="62" rx="6" fill="white" stroke="#10b981" stroke-width="1.5" filter="url(#shadowSmall)"/>
+  <rect x="250" y="285" width="200" height="24" rx="6" fill="#ecfdf5"/>
+  <text x="350" y="303" text-anchor="middle" font-size="14" font-weight="bold" fill="#047857">数模混合芯片</text>
+  <text x="350" y="327" text-anchor="middle" font-size="11" fill="#475569">Mixed-Signal IC</text>
+
+  <!-- Left design-type descriptions -->
+  <text x="130" y="265" text-anchor="middle" font-size="10" fill="#64748b">传感器、运放、电源管理</text>
+  <text x="350" y="265" text-anchor="middle" font-size="10" fill="#64748b">CPU、GPU、FPGA、SoC</text>
+  <text x="130" y="360" text-anchor="middle" font-size="10" fill="#64748b">PA、LNA、混频器、天线开关</text>
+  <text x="350" y="360" text-anchor="middle" font-size="10" fill="#64748b">ADC/DAC、PLL、SerDes</text>
+
+  <!-- ====== RIGHT: 按功能应用分类 ====== -->
+
+  <!-- Right branch box -->
+  <rect x="600" y="90" width="540" height="48" rx="8" fill="url(#funcGrad)" filter="url(#shadow)"/>
+  <text x="870" y="120" text-anchor="middle" font-size="17" font-weight="bold" fill="white">按功能应用分类</text>
+
+  <!-- Vertical line from right branch -->
+
+  <!-- Horizontal spread -->
+
+  <!-- Right sub-items (4 columns x 2 rows) -->
+  <!-- Column dividers -->
+
+  <!-- Row 1: MCU, 车规, 功率, 消费 -->
+  <rect x="575" y="195" width="215" height="56" rx="6" fill="white" stroke="#6366f1" stroke-width="1.5" filter="url(#shadowSmall)"/>
+  <rect x="575" y="195" width="215" height="23" rx="6" fill="#eef2ff"/>
+  <text x="682" y="212" text-anchor="middle" font-size="13" font-weight="bold" fill="#4338ca">MCU / 单片机</text>
+  <text x="682" y="233" text-anchor="middle" font-size="10" fill="#475569">STM32, ESP32, AVR, 8051</text>
+
+  <rect x="805" y="195" width="185" height="56" rx="6" fill="white" stroke="#f59e0b" stroke-width="1.5" filter="url(#shadowSmall)"/>
+  <rect x="805" y="195" width="185" height="23" rx="6" fill="#fffbeb"/>
+  <text x="897" y="212" text-anchor="middle" font-size="13" font-weight="bold" fill="#b45309">车规芯片</text>
+  <text x="897" y="233" text-anchor="middle" font-size="10" fill="#475569">AEC-Q100, ISO 26262</text>
+
+  <rect x="1005" y="195" width="160" height="56" rx="6" fill="white" stroke="#ef4444" stroke-width="1.5" filter="url(#shadowSmall)"/>
+  <rect x="1005" y="195" width="160" height="23" rx="6" fill="#fef2f2"/>
+  <text x="1085" y="212" text-anchor="middle" font-size="13" font-weight="bold" fill="#b91c1c">功率器件</text>
+  <text x="1085" y="233" text-anchor="middle" font-size="10" fill="#475569">MOSFET, IGBT, SiC, GaN</text>
+
+  <!-- Row 1 lower: 消费 -->
+  <rect x="575" y="265" width="215" height="56" rx="6" fill="white" stroke="#10b981" stroke-width="1.5" filter="url(#shadowSmall)"/>
+  <rect x="575" y="265" width="215" height="23" rx="6" fill="#ecfdf5"/>
+  <text x="682" y="282" text-anchor="middle" font-size="13" font-weight="bold" fill="#047857">消费电子芯片</text>
+  <text x="682" y="303" text-anchor="middle" font-size="10" fill="#475569">SoC, PMIC, 触控、音频 Codec</text>
+
+  <!-- Row 2 column connectors -->
+
+  <!-- Row 2: 存储, 工控, 视频 -->
+  <rect x="575" y="350" width="215" height="56" rx="6" fill="white" stroke="#06b6d4" stroke-width="1.5" filter="url(#shadowSmall)"/>
+  <rect x="575" y="350" width="215" height="23" rx="6" fill="#ecfeff"/>
+  <text x="682" y="367" text-anchor="middle" font-size="13" font-weight="bold" fill="#0e7490">存储芯片</text>
+  <text x="682" y="388" text-anchor="middle" font-size="10" fill="#475569">DRAM, NAND, NOR Flash, HBM</text>
+
+  <rect x="805" y="350" width="185" height="56" rx="6" fill="white" stroke="#8b5cf6" stroke-width="1.5" filter="url(#shadowSmall)"/>
+  <rect x="805" y="350" width="185" height="23" rx="6" fill="#f5f3ff"/>
+  <text x="897" y="367" text-anchor="middle" font-size="13" font-weight="bold" fill="#6d28d9">工控芯片</text>
+  <text x="897" y="388" text-anchor="middle" font-size="10" fill="#475569">PLC, 工业以太网, 隔离器件</text>
+
+  <rect x="1005" y="350" width="160" height="56" rx="6" fill="white" stroke="#f97316" stroke-width="1.5" filter="url(#shadowSmall)"/>
+  <rect x="1005" y="350" width="160" height="23" rx="6" fill="#fff7ed"/>
+  <text x="1085" y="367" text-anchor="middle" font-size="13" font-weight="bold" fill="#c2410c">视频/显示芯片</text>
+  <text x="1085" y="388" text-anchor="middle" font-size="10" fill="#475569">ISP, 显示驱动, HDMI</text>
+
+  <!-- ====== Bottom: 交叉示例 ====== -->
+
+  <rect x="60" y="440" width="1080" height="310" rx="8" fill="white" stroke="#e2e8f0" stroke-width="1" filter="url(#shadowSmall)"/>
+
+  <text x="600" y="470" text-anchor="middle" font-size="15" font-weight="bold" fill="#334155">两类分类的交叉关系（举例）</text>
+  <text x="600" y="490" text-anchor="middle" font-size="12" fill="#94a3b8">同一颗芯片可以同时属于一个设计类型和一个功能类别</text>
+
+  <!-- Grid: 3 columns x 4 rows -->
+  <!-- Headers -->
+  <rect x="100" y="510" width="320" height="36" rx="4" fill="#f1f5f9"/>
+  <text x="260" y="533" text-anchor="middle" font-size="13" font-weight="bold" fill="#475569">芯片举例</text>
+
+  <rect x="440" y="510" width="320" height="36" rx="4" fill="#eff6ff"/>
+  <text x="600" y="533" text-anchor="middle" font-size="13" font-weight="bold" fill="#2563eb">设计类型</text>
+
+  <rect x="780" y="510" width="320" height="36" rx="4" fill="#f5f3ff"/>
+  <text x="940" y="533" text-anchor="middle" font-size="13" font-weight="bold" fill="#7c3aed">功能类别</text>
+
+  <!-- Row 1 -->
+  <text x="260" y="568" text-anchor="middle" font-size="12" fill="#1e293b">STM32F103（意法半导体）</text>
+  <text x="600" y="568" text-anchor="middle" font-size="12" fill="#475569">数字芯片</text>
+  <text x="940" y="568" text-anchor="middle" font-size="12" fill="#475569">MCU / 单片机</text>
+  <line x1="100" y1="578" x2="1100" y2="578" stroke="#f1f5f9" stroke-width="1"/>
+
+  <!-- Row 2 -->
+  <text x="260" y="602" text-anchor="middle" font-size="12" fill="#1e293b">LM358（德州仪器）</text>
+  <text x="600" y="602" text-anchor="middle" font-size="12" fill="#475569">模拟芯片</text>
+  <text x="940" y="602" text-anchor="middle" font-size="12" fill="#475569">消费电子 / 工控</text>
+  <line x1="100" y1="612" x2="1100" y2="612" stroke="#f1f5f9" stroke-width="1"/>
+
+  <!-- Row 3 -->
+  <text x="260" y="636" text-anchor="middle" font-size="12" fill="#1e293b">SK Hynix HBM3</text>
+  <text x="600" y="636" text-anchor="middle" font-size="12" fill="#475569">数字芯片</text>
+  <text x="940" y="636" text-anchor="middle" font-size="12" fill="#475569">存储芯片</text>
+  <line x1="100" y1="646" x2="1100" y2="646" stroke="#f1f5f9" stroke-width="1"/>
+
+  <!-- Row 4 -->
+  <text x="260" y="670" text-anchor="middle" font-size="12" fill="#1e293b">Infineon SiC MOSFET</text>
+  <text x="600" y="670" text-anchor="middle" font-size="12" fill="#475569">模拟芯片（功率）</text>
+  <text x="940" y="670" text-anchor="middle" font-size="12" fill="#475569">功率器件 / 车规</text>
+  <line x1="100" y1="680" x2="1100" y2="680" stroke="#f1f5f9" stroke-width="1"/>
+
+  <!-- Row 5 -->
+  <text x="260" y="704" text-anchor="middle" font-size="12" fill="#1e293b">高通 Snapdragon 8 Gen 3</text>
+  <text x="600" y="704" text-anchor="middle" font-size="12" fill="#475569">数模混合芯片（SoC）</text>
+  <text x="940" y="704" text-anchor="middle" font-size="12" fill="#475569">消费电子芯片</text>
+  <line x1="100" y1="714" x2="1100" y2="714" stroke="#f1f5f9" stroke-width="1"/>
+
+  <!-- Row 6 -->
+  <text x="260" y="738" text-anchor="middle" font-size="12" fill="#1e293b">Skyworks SKY77708（PA）</text>
+  <text x="600" y="738" text-anchor="middle" font-size="12" fill="#475569">射频芯片</text>
+  <text x="940" y="738" text-anchor="middle" font-size="12" fill="#475569">通信芯片</text>
+
+</svg>
